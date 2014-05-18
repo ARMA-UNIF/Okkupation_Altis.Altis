@@ -1,16 +1,3 @@
-/*
-Creative Commons Lizenzvertrag
-Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer 
-Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz.
-http://creativecommons.org/licenses/by-nc-nd/4.0/deed.de
-
-Creative Commons License
-Okkupation Altis by http://www.Arma-Unif.de  licensed under a
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-http://creativecommons.org/licenses/by-nc-nd/4.0/
-
-*/
-
 version=12;
 class Mission
 {
@@ -155,7 +142,7 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					syncId=0;
-					synchronizations[]={10,11};
+					synchronizations[]={10,11,9};
 				};
 			};
 		};
@@ -585,7 +572,7 @@ class Mission
 					text="test";
 					init="null = this execVM ""Scripts\waffenbox.sqf""";
 					syncId=9;
-					synchronizations[]={12};
+					synchronizations[]={12,9,0};
 				};
 			};
 		};
@@ -772,7 +759,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={26734.814,20.44664,24615.326};
+					position[]={26734.738,20.446964,24615.248};
 					azimut=14.85;
 					special="NONE";
 					id=17;
@@ -793,7 +780,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={26739.813,20.450048,24616.629};
+					position[]={26739.309,20.448437,24616.746};
 					azimut=102.15;
 					special="NONE";
 					id=18;
