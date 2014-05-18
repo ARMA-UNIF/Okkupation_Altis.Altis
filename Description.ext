@@ -12,20 +12,13 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 */
 
 author = "www.Arma-Unif.de";
-onloadname = "Okkupaton Altis";
+onloadname = "Okkupation Altis";
 onloadmission = "";
 loadscreen = "unif.paa";
 onLoadMissionTime = 1;
-overviewText = "";
+overviewText = "UNIF ARMA 3 Hardcore Multiplayer Modus";
 overviewTextLocked = "Mission nicht verfügbar";
 overviewPicture = "unif.paa";
-
-#include "VAS\menu.hpp"
-
-class CfgFunctions
-{
-	#include "VAS\cfgfunctions.hpp"
-};
 
 class CfgDebriefing
 {

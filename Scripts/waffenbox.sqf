@@ -1,6 +1,6 @@
 /*
 Creative Commons Lizenzvertrag
-Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer 
+Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer
 Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz.
 http://creativecommons.org/licenses/by-nc-nd/4.0/deed.de
 
@@ -21,21 +21,21 @@ _marker = "Waffenausgabe";  // Marker
 _boxType = "Box_NATO_Wps_F";  // Typ der Waffenkiste
 _timer = 1500;  // Nachfüllzeit
 
-if (_this != player) exitWith {};  
+if (_this != player) exitWith {};
 _weapons = []; _magazines = []; _items = [];
 
 // Ausrüstung Klasse 1
 if (player isKindOf "B_Soldier_F") then {
-	_weapons = 
+	_weapons =
 	[
 		["muzzle_mas_snds_mc",1],
-		["optic_arco",1] // kein , nach dem letzten Item
+		["G36agl",1] // kein , nach dem letzten Item
 	];
-	
-	_magazines = 
+
+	_magazines =
 	[
 		["30Rnd_556x45_Stanag",40],
-		["30Rnd_556x45_G36",20],
+		["g36_mag",20],
 		["8Rnd_B_Beneli_74Slug",20],
 		["15Rnd_9x19_M9",20],
 		["HandGrenade_West",20],
@@ -44,12 +44,12 @@ if (player isKindOf "B_Soldier_F") then {
         ["SmokeShellGreen",20],
         ["SmokeShellYellow",20],
 		["Mine",20] // kein , nach dem letzten Item
-		
+
 	];
-	_items = 
+	_items =
 	[
 		["optic_arco",1],
-		["30Rnd_556x45_G36",20],
+		["g36_mag",20],
 		["8Rnd_B_Beneli_74Slug",20],
 		["15Rnd_9x19_M9",20],
 		["HandGrenade_West",20],
@@ -58,9 +58,9 @@ if (player isKindOf "B_Soldier_F") then {
         ["SmokeShellGreen",20],
         ["SmokeShellYellow",20],
 		["Mine",20] // kein , nach dem letzten Item
-		
+
 	];
-	
+
 };
 
 
@@ -78,12 +78,12 @@ while {true} do {
 	clearWeaponCargo _box;
 	clearMagazineCargo _box;
 	clearItemCargo _box;
-	
+
 	{_box addWeaponCargo [(_x select 0),(_x select 1)]} foreach _weapons;
-	
+
 	{_box addMagazineCargo [(_x select 0),(_x select 1)]} foreach _magazines;
-	
+
 	{_box addItemCargo [(_x select 0),(_x select 1)]} foreach _items;
-	
+
 	sleep _timer;
 };
