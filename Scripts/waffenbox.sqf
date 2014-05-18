@@ -64,7 +64,18 @@ if (player isKindOf "B_Soldier_AR_F") then {
 		["100Rnd_mas_762x51_T_Stanag",5],
 		["150Rnd_762x51_Box",5],
 		["150Rnd_762x51_Box_Tracer",5], 
-	
+		
+		["RH_7Rnd_50_AE",4], 
+		["RH_6Rnd_357_Mag",4], 
+		["RH_6Rnd_454_Mag",4], 
+		["RH_15Rnd_9x19_SIG",4], 
+		["RH_12Rnd_45cal_usp",4], 
+		["RH_7Rnd_45cal_m1911",4], 
+		["RH_15Rnd_9x19_M9",4], 
+		["RH_15Rnd_45cal_fnp",4], 
+		["RH_17Rnd_9x19_g17",4], 
+		["RH_30Rnd_9x19_UZI",4], 
+			
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
