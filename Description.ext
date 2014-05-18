@@ -1,0 +1,42 @@
+/*
+Creative Commons Lizenzvertrag
+Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer 
+Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz.
+http://creativecommons.org/licenses/by-nc-nd/4.0/deed.de
+
+Creative Commons License
+Okkupation Altis by http://www.Arma-Unif.de  licensed under a
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+*/
+
+author = "www.Arma-Unif.de";
+onloadname = "Test Mission";
+onloadmission = "";
+loadscreen = "";
+onLoadMissionTime = 1;
+overviewText = "";
+overviewTextLocked = "";
+overviewPicture = "";
+
+#include "VAS\menu.hpp"
+
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+};
+
+class CfgDebriefing
+{  
+	class Win1
+	{
+		title = "Mission Complete";
+		subtitle = "";
+		description = "";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {};
+	};
+};
+  
