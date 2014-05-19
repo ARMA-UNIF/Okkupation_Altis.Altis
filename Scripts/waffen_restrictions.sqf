@@ -12,9 +12,9 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 */
 
 //Klassendefinition
-_maschWaffen = ["LMG_mas_M249_F", "LMG_mas_M249_F_d", "LMG_mas_M249_F_d", "LMG_mas_Mk48_F_v", "LMG_mas_Mk48_F_d", "LMG_mas_M240_F", "LMG_mas_mg3_F"];
-_schuetzeWaffen = ["arifle_MXM_Hamr_pointer_F"];
-
+_maschWaffen = ["LMG_mas_M249_F", "LMG_mas_Mk48_F", "LMG_mas_M249_F_d", "LMG_mas_M249_F_d", "LMG_mas_Mk48_F_v", "LMG_mas_Mk48_F_d", "LMG_mas_M240_F", "LMG_mas_mg3_F"];
+_pabwehrWaffen = ["arifle_MXM_Hamr_pointer_F"];
+_luabwehrWaffen = ["arifle_MXM_Hamr_pointer_F"];
 
 sleep 1;
 
@@ -30,8 +30,17 @@ while {true} do
 		{
 		nil
 		};
-		// ----- Klasse "Schütze" ----
-		if ( !(primaryWeapon player in _schuetzeWaffen ) && (player isKindOf "B_Soldier_F")) then 
+		// ----- Klasse "Panzerabwehr" ----
+		if ( !(primaryWeapon player in _pabwehrWaffen ) && (player isKindOf "B_soldier_AT_F")) then 
+		{
+		player removeWeapon (primaryWeapon player)
+		}
+		else
+		{
+		nil
+		};  
+		// ----- Klasse "Luftabwehr" ----
+		if ( !(primaryWeapon player in _luabwehrWaffen ) && (player isKindOf "B_soldier_AA_F")) then 
 		{
 		player removeWeapon (primaryWeapon player)
 		}
