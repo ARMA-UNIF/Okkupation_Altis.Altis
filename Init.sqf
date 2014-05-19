@@ -44,3 +44,11 @@ titleCut ["", "BLACK FADED", 12];
 	//["<t size='0.7'>" + "Rüdiger?<br/>" + "</t>" + "<t size='0.5'>" + "Kein Penis!" + "</t>",0.5,0.1,3,-1,0,3011] call bis_fnc_dynamicText;
 	showHUD true;
 };
+
+// Scripte
+_igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
+[] execVM "scripts\zlt_fieldrepair.sqf";
+[] execVM "scripts\real_weather.sqf";
+
+// Task Force Radio
+tf_no_auto_long_range_radio = true;

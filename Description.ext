@@ -13,12 +13,26 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 author = "www.Arma-Unif.de";
 onloadname = "Okkupation Altis";
-onloadmission = "";
+onloadmission = "UNIF ARMA 3 Hardcore Multiplayer Modus";
 loadscreen = "unif.paa";
 onLoadMissionTime = 1;
 overviewText = "UNIF ARMA 3 Hardcore Multiplayer Modus";
-overviewTextLocked = "Mission nicht verfügbar";
+//overviewTextLocked = "Mission nicht verfügbar";
 overviewPicture = "unif.paa";
+
+disabledAI = 1;
+enableDebugConsole = 0;
+allowFunctionsLog = 0;
+disableChannels[] = {0,1,2,3,4,5};
+// disableChannels 0=Global, 1=Side, 2=Com, 3=Grp, 4=Fhz, 5=Direkt, 6=System
+enableItemsDropping = 1
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 40;
+};
 
 class CfgDebriefing
 {
@@ -31,4 +45,11 @@ class CfgDebriefing
 		picture = "";
 		pictureColor[] = {};
 	};
+};
+
+#include "taw_vd\dialog.hpp"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
 };
