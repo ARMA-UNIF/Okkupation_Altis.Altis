@@ -19,22 +19,21 @@ if (true) then //Editor
 
 _marker = "Waffenausgabe";  // Marker
 _boxType = "Box_NATO_Wps_F";  // Typ der Waffenkiste
-_timer = 1500;  // Nachfüllzeit
+_timer = 1800;  // Nachfüllzeit
 
 if (_this != player) exitWith {};
 _weapons = []; _magazines = []; _items = [];
 
 // Ausrüstung Klasse "MG Schütze"
-if (player isKindOf "B_Soldier_AR_F") then {
+if (player isKindOf "B_soldier_AR_F") then {
 	_weapons =
 	[
 	//----------Hauptwaffe----------- //
 		["LMG_mas_M249_F",1],
 		["LMG_mas_M249_F_v",1],
 		["LMG_mas_M249_F_d",1],
-		["LMG_mas_Mk48_F",1],
-		["LMG_mas_Mk48_v",1],
-		["LMG_mas_Mk48_d",1],
+		["LMG_mas_Mk48_F_v",1],
+		["LMG_mas_Mk48_F_d",1],
 		["LMG_mas_M240_F",1],
 		["LMG_mas_mg3_F",1],
 		
@@ -93,6 +92,7 @@ if (player isKindOf "B_Soldier_AR_F") then {
 	];
 	_items =
 	[
+	//-----------Anbauten Pri.-------- //
 		["optic_hamr",1],
 		["optic_NVS",1],
 		["optic_arco",1],
@@ -101,7 +101,24 @@ if (player isKindOf "B_Soldier_AR_F") then {
 		["acc_mas_pointer_IR",1],
 		["acc_flashlight",1],
 		["fhq_acc_anpeq15_black",1],
-		["fhq_acc_anpeq15",1] // kein , nach dem letzten Item
+		["fhq_acc_anpeq15",1],
+	//-----------Anbauten Sec.-------- //
+		["RH_demz",1],
+		["optic_Yorris",1],
+		["RH_x300",1],
+		["RH_m6x",1],
+		["RH_x2",1],
+		["RH_deflash",1],
+		["RH_suppr9",1],
+		["muzzle_snds_acp",1],
+		["RH_aacusp",1],
+		["RH_gemtech45",1],
+		["RH_fhusp",1],
+		["RH_osprey",1],
+		["RH_docter",1],
+		["optic_MRD",1],
+		["RH_gemtech9",1],
+		["RH_muzisd",1] // kein , nach dem letzten Item
 
 	];
 
@@ -115,7 +132,6 @@ _box setPos [26824.684,24617.508,1.5];
 sleep 1;
 _box setDir 135;
 _box allowDamage false;
-//_box hideObject true;
 
 while {true} do {
 	// leeren.
