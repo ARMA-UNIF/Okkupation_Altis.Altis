@@ -49,6 +49,6 @@ titleCut ["", "BLACK FADED", 12];
 _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\zlt_fieldrepair.sqf";
 [] execVM "scripts\real_weather.sqf";
-
+[] execVM "Scripts\waffen_restrictions.sqf";
 // Task Force Radio
 tf_no_auto_long_range_radio = true;
