@@ -10,11 +10,13 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
+if (isDedicated) exitWith {};
 
 //Klassendefinition
 _maschWaffen = ["LMG_mas_M249_F", "LMG_mas_Mk48_F", "LMG_mas_M249_F_d", "LMG_mas_M249_F_d", "LMG_mas_Mk48_F_v", "LMG_mas_Mk48_F_d", "LMG_mas_M240_F", "LMG_mas_mg3_F"];
-_pabwehrWaffen = ["arifle_MXM_Hamr_pointer_F"];
-_luabwehrWaffen = ["arifle_MXM_Hamr_pointer_F"];
+_pabwehrWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d"];
+_luabwehrWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d"];
+
 
 sleep 1;
 

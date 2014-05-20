@@ -690,7 +690,7 @@ class Mission
 					vehicle="B_officer_F";
 					leader=1;
 					skill=1;
-					text="Wache_1";
+					text="Wache";
 					init="this disableAI ""MOVE"";";
 					syncId=13;
 					synchronizations[]={14};

@@ -10,6 +10,8 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
+if (isDedicated) exitWith {};
+
 _panzerKlasse = ["launch_B_Titan_short_F", "mas_launch_M136_F" ];
 _panzerKlasseM136 = ["mas_launch_M136_F"];
 _luftKlasse = ["mas_launch_Stinger_F"];
@@ -27,10 +29,25 @@ while {true} do
 		nil
 		};
 		// ----- Klasse "Panzerabwehr Abfrage" ----
-		
+		if ( (secondaryWeapon player in _luftKlasse ) && (player isKindOf "B_soldier_AT_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
 		// ----- Klasse "Panzerabwehr M136" ----
 		
 		// ----- Klasse "Luftabwehr Abfrage" ----
+		if ( (secondaryWeapon player in _panzerKlasse ) && (player isKindOf "B_soldier_AA_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
 			
 	sleep 30;
 };
