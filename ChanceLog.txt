@@ -1,0 +1,10 @@
+//-------------------------------
+//Okkupation Altis Chancelog:
+//-------------------------------
+
+Ver. 0.1a
+- Waffen Restriktionen für Klassen 
+- Werfer Restriktionen
+
+Ver. 0.1
+- Waffenkiste Klassenabhängig
