@@ -22,7 +22,7 @@ _boxType = "Box_NATO_Wps_F";  // Typ der Waffenkiste
 _timer = 1800;  // Nachfüllzeit
 
 if (_this != player) exitWith {};
-_weapons = []; _magazines = []; _items = [];
+_weapons = []; _magazines = []; _items = []; _backpack = [];
 
 // Ausrüstung Klasse "MG Schütze"
 if (player isKindOf "B_soldier_AR_F") then {
@@ -144,25 +144,6 @@ if (player isKindOf "B_soldier_AR_F") then {
 		["V_TacVestIR_blk",1],
 		["V_Chestrig_blk",1],
 		["V_PlateCarrier1_blk",1],
-		//-----------Rucksäcke-------- //
-		["tf_rt1523g",1],
-		["clf_nicecomm2_prc117g_multi",1],
-		["ARC_GER_Backpack_Tropentarn_Med",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Tropentarn",1],
-		["ARC_GER_Kitbag_compact_Tropentarn",1],
-		["ARC_GER_Backpack_Flecktarn_Med",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Flecktarn",1],
-		["ARC_GER_Kitbag_compact_Flecktarn",1],
-		["B_mas_Kitbag_black",1],
-		["B_Parachute",1],
-		["B_AssaultPack_blk",1],
-		["B_FieldPack_blk",1],
 		//-----------Helme-------- //
 		["ARC_GER_Tropentarn_Milcap",1],
 		["ARC_GER_Tropentarn_Mich",1],
@@ -192,8 +173,30 @@ if (player isKindOf "B_soldier_AR_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
-	];
+		["NVGoggles_OPFOR",1]
+		];
+		_backpack =
+		[
+		//-----------Rucksäcke-------- //
+		["tf_rt1523g",1],
+		["clf_nicecomm2_prc117g_multi",1],
+		["ARC_GER_Backpack_Tropentarn_Med",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Tropentarn",1],
+		["ARC_GER_Kitbag_compact_Tropentarn",1],
+		["ARC_GER_Backpack_Flecktarn_Med",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Flecktarn",1],
+		["ARC_GER_Kitbag_compact_Flecktarn",1],
+		["B_mas_Kitbag_black",1],
+		["B_Parachute",1],
+		["B_AssaultPack_blk",1],
+		["B_FieldPack_blk",1]
+		];
 
 };
 
@@ -333,25 +336,6 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["V_TacVestIR_blk",1],
 		["V_Chestrig_blk",1],
 		["V_PlateCarrier1_blk",1],
-		//-----------Rucksäcke-------- //
-		["tf_rt1523g",1],
-		["clf_nicecomm2_prc117g_multi",1],
-		["ARC_GER_Backpack_Tropentarn_Med",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Tropentarn",1],
-		["ARC_GER_Kitbag_compact_Tropentarn",1],
-		["ARC_GER_Backpack_Flecktarn_Med",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Flecktarn",1],
-		["ARC_GER_Kitbag_compact_Flecktarn",1],
-		["B_mas_Kitbag_black",1],
-		["B_Parachute",1],
-		["B_AssaultPack_blk",1],
-		["B_FieldPack_blk",1],
 		//-----------Helme-------- //
 		["ARC_GER_Tropentarn_Milcap",1],
 		["ARC_GER_Tropentarn_Mich",1],
@@ -384,6 +368,28 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["NVGoggles_OPFOR",1]		
 		
 	];
+		_backpack =
+		[
+		//-----------Rucksäcke-------- //
+		["tf_rt1523g",1],
+		["clf_nicecomm2_prc117g_multi",1],
+		["ARC_GER_Backpack_Tropentarn_Med",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Tropentarn",1],
+		["ARC_GER_Kitbag_compact_Tropentarn",1],
+		["ARC_GER_Backpack_Flecktarn_Med",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Flecktarn",1],
+		["ARC_GER_Kitbag_compact_Flecktarn",1],
+		["B_mas_Kitbag_black",1],
+		["B_Parachute",1],
+		["B_AssaultPack_blk",1],
+		["B_FieldPack_blk",1]
+		];
 
 };
 
@@ -520,25 +526,6 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["V_TacVestIR_blk",1],
 		["V_Chestrig_blk",1],
 		["V_PlateCarrier1_blk",1],
-		//-----------Rucksäcke-------- //
-		["tf_rt1523g",1],
-		["clf_nicecomm2_prc117g_multi",1],
-		["ARC_GER_Backpack_Tropentarn_Med",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Carryall_Tropentarn",1],
-		["ARC_GER_Backpack_Tropentarn",1],
-		["ARC_GER_Kitbag_compact_Tropentarn",1],
-		["ARC_GER_Backpack_Flecktarn_Med",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Carryall_Flecktarn",1],
-		["ARC_GER_Backpack_Flecktarn",1],
-		["ARC_GER_Kitbag_compact_Flecktarn",1],
-		["B_mas_Kitbag_black",1],
-		["B_Parachute",1],
-		["B_AssaultPack_blk",1],
-		["B_FieldPack_blk",1],
 		//-----------Helme-------- //
 		["ARC_GER_Tropentarn_Milcap",1],
 		["ARC_GER_Tropentarn_Mich",1],
@@ -570,6 +557,28 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["NVGoggles",1],
 		["NVGoggles_OPFOR",1]	
 	];
+		_backpack =
+		[
+		//-----------Rucksäcke-------- //
+		["tf_rt1523g",1],
+		["clf_nicecomm2_prc117g_multi",1],
+		["ARC_GER_Backpack_Tropentarn_Med",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Carryall_Tropentarn",1],
+		["ARC_GER_Backpack_Tropentarn",1],
+		["ARC_GER_Kitbag_compact_Tropentarn",1],
+		["ARC_GER_Backpack_Flecktarn_Med",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Carryall_Flecktarn",1],
+		["ARC_GER_Backpack_Flecktarn",1],
+		["ARC_GER_Kitbag_compact_Flecktarn",1],
+		["B_mas_Kitbag_black",1],
+		["B_Parachute",1],
+		["B_AssaultPack_blk",1],
+		["B_FieldPack_blk",1]
+		];
 
 };
 
@@ -592,6 +601,8 @@ while {true} do {
 	{_box addMagazineCargo [(_x select 0),(_x select 1)]} foreach _magazines;
 
 	{_box addItemCargo [(_x select 0),(_x select 1)]} foreach _items;
+	
+	{_box addBackpackCargo [(_x select 0),(_x select 1)]} foreach _backpack;
 
 	sleep _timer;
 };
