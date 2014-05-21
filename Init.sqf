@@ -51,5 +51,7 @@ _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\real_weather.sqf";
 [] execVM "Scripts\waffen_restrictions.sqf";
 [] execVM "Scripts\werfer_restrictions.sqf";
+[]execVM "eos\OpenMe.sqf";
+
 // Task Force Radio
 tf_no_auto_long_range_radio = true;

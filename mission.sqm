@@ -4027,12 +4027,23 @@ class Mission
 	};
 	class Markers
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			position[]={26815.301,22.431211,24623.279};
 			name="Waffenausgabe";
 			type="Empty";
+		};
+		class Item1
+		{
+			position[]={27024.684,21.543947,24761.018};
+			name="test";
+			markerType="ELLIPSE";
+			type="mil_ambush";
+			colorName="ColorRed";
+			fillName="Horizontal";
+			a=10;
+			b=10;
 		};
 	};
 	class Sensors
