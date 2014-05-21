@@ -1,4 +1,17 @@
+if( (initMission == 0) or (getMarkerColor activeMission == "ColorGreen")) then {
+		_missionMarker = missionMarker call BIS_fnc_selectRandom;
+		activeMission = _missionMarker;
+		missionMarker = missionMarker - [ _missionMarker ];
+		initMission = 1;
+		sleep 0.5;
+		hint "Mission ausgewählt";
+		} else {
+		hint "Mission läuft";
+	};
+
+/*
 _missionMarker = missionMarker call BIS_fnc_selectRandom;
+
 
 if( getMarkerColor _missionMarker == "ColorGreen") then {
 		missionMarker = missionMarker - [ _missionMarker ];
@@ -8,7 +21,7 @@ if( getMarkerColor _missionMarker == "ColorGreen") then {
 	};
 
 
-
+player removeAction 0;
 
 
 
@@ -34,7 +47,8 @@ player addAction ["Switch on generator", "activate_generator.sqs"];
 
 player removeAction 0;
 
-_activeMission = _missionMarker
+activeMission = _missionMarker
 
 _missionMarker = missionMarker call BIS_fnc_selectRandom;
 missionMarker = missionMarker - [ _missionMarker ];
+*/
