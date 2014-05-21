@@ -1,54 +1,35 @@
-if( (initMission == 0) or (getMarkerColor activeMission == "ColorGreen")) then {
+/*
+Creative Commons Lizenzvertrag
+Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer
+Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz.
+http://creativecommons.org/licenses/by-nc-nd/4.0/deed.de
+
+Creative Commons License
+Okkupation Altis by http://www.Arma-Unif.de  licensed under a
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+*/
+
+if (count missionMarker == 0) then 
+{
+ hint "Serverneustart"; 
+ initMission = 0;
+ };	
+
+if( (initMission != 1) || {getMarkerColor activeMission == "ColorGreen"}) then 
+		{
 		_missionMarker = missionMarker call BIS_fnc_selectRandom;
+		sleep 0.5;
 		activeMission = _missionMarker;
 		missionMarker = missionMarker - [ _missionMarker ];
 		initMission = 1;
 		sleep 0.5;
-		hint "Mission ausgewählt";
-		} else {
-		hint "Mission läuft";
-	};
-
-/*
-_missionMarker = missionMarker call BIS_fnc_selectRandom;
-
-
-if( getMarkerColor _missionMarker == "ColorGreen") then {
-		missionMarker = missionMarker - [ _missionMarker ];
-		hint "Bitte neue Mission beantragen";
-		} else {
-		player removeAction 0;
-	};
-
-
-player removeAction 0;
-
-
-
-
-if( getMarkerColor _missionMarker == "ColorGreen") then {
-		missionMarker + "1"
-		createMarker ["Marker1", position player ];
-		createMarker ["Marker1", position player ];
-		"MarkerOne" setMarkerSize [100, 200];
-		player addAction ["Neuer Auftrag", "activate_Mission.sqf"];
-		} else {
-		player removeAction 0;
-	};
-
-
-player addAction ["Neuer Auftrag", "activate_Mission.sqf"];
-player removeAction 0;
-
-_missionMarker = missionMarker;
-
-
-player addAction ["Switch on generator", "activate_generator.sqs"];
-
-player removeAction 0;
-
-activeMission = _missionMarker
-
-_missionMarker = missionMarker call BIS_fnc_selectRandom;
-missionMarker = missionMarker - [ _missionMarker ];
-*/
+		[]execVM ("scripts\Missionen\" + activeMission + ".sqf") ;
+		sleep 1;
+		hint "Mission ausgewählt"
+		} 
+		else
+		{
+		hint "Mission läuft"
+		};

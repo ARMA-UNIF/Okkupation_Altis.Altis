@@ -7,6 +7,9 @@ Arma 3 Hardcore MP Mode
 //Okkupation Altis Chancelog:
 //-------------------------------
 
+Ver. 0.20
+- Zufallsmissionen hinzugefügt
+
 Ver. 0.1b
 - Anpassung der Klassenausrüstung
 

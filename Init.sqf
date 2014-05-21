@@ -45,20 +45,21 @@ titleCut ["", "BLACK FADED", 12];
 	showHUD true;
 };
 
-// Scripte
-_igiLoad = execVM "Scripts\IgiLoad\IgiLoadInit.sqf";
-[] execVM "Scripts\zlt_fieldrepair.sqf";
-[] execVM "Scripts\real_weather.sqf";
-[] execVM "Scripts\waffen_restrictions.sqf";
-[] execVM "Scripts\werfer_restrictions.sqf";
-[]execVM "eos\OpenMe.sqf";
+// scripts
+_igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
+[] execVM "scripts\zlt_fieldrepair.sqf";
+[] execVM "scripts\real_weather.sqf";
+[] execVM "scripts\waffenbox.sqf";
+[] execVM "scripts\waffen_restrictions.sqf";
+[] execVM "scripts\werfer_restrictions.sqf";
 []execVM "eos\OpenMe.sqf";
 
 // Zufallsmission Start
-if (isDedicated) then
-{
+//if (isDedicated) then {
+missionMarker = ["M001", "M002" ];
 initMission = 0;
-};
+activeMission =0;
+//};
 
 // Task Force Radio
 tf_no_auto_long_range_radio = true;
