@@ -1,0 +1,4 @@
+this setObjectTexture [0, "pictures\mission\M001.jpg"] // 512x512 or 1024x1024
+
+"pictures\missionen\" + activeMission + ".jpg"
+

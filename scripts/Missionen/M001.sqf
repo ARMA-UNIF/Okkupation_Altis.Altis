@@ -1,3 +1,3 @@
-sleep 10;
-hint "geht";
+sleep 4;
+mission_Sign setObjectTexture [0, "pictures\mission\M001.jpg"];
 null = [[activeMission],[1,1],[1,1,1],[0,0],[0],[0],[0,0],[0,0,350,EAST,TRUE]] call EOS_Spawn;

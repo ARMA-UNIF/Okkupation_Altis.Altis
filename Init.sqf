@@ -59,7 +59,8 @@ _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 missionMarker = ["M001", "M002" ];
 initMission = 0;
 activeMission =0;
+mission_Sign setObjectTexture [0, "pictures\mission\0.jpg"]
 //};
-
+mission_Sign setObjectTexture [0, "pictures\mission\M001.jpg"]
 // Task Force Radio
 tf_no_auto_long_range_radio = true;
