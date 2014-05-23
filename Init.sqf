@@ -52,7 +52,7 @@ _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\waffenbox.sqf";
 [] execVM "scripts\waffen_restrictions.sqf";
 [] execVM "scripts\werfer_restrictions.sqf";
-[]execVM "eos\OpenMe.sqf";
+[] execVM "eos\OpenMe.sqf";
 
 // Zufallsmission Start
 //if (isDedicated) then {
