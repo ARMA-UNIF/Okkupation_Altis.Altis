@@ -7,8 +7,12 @@ Arma 3 Hardcore MP Mode
 //Okkupation Altis Chancelog:
 //-------------------------------
 
+Ver. 0.2a
+- Zusatzscripte hochgeladen
+- veh_init.sqf hinzugefügt
+- Fahrzeugskins hinzugefügt [Gorgon, Kuma (mit texturen), Panther, Strider]
 
-Ver. 0.20
+Ver. 0.2
 - Zufallsmissionen hinzugefügt
 
 Ver. 0.1c
