@@ -15,7 +15,8 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 if (!isServer && isNull player) then {isJIP=true;} else {isJIP=false;};
 if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 if (!isMultiplayer) then { enableSaving [true, true]; } else { enableSaving [true, true]; };
-
+enableSaving [false, false];
+attached = false; //BDD
 // Intro
 [0, 0] spawn BIS_fnc_cinemaBorder;
 showHUD false;
@@ -45,15 +46,32 @@ titleCut ["", "BLACK FADED", 12];
 	showHUD true;
 };
 
-// scripts
-_igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
+// scripts ------------------------------------------------------------------
+//_igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\zlt_fieldrepair.sqf";
 [] execVM "scripts\real_weather.sqf";
 [] execVM "scripts\waffenbox.sqf";
 [] execVM "scripts\waffen_restrictions.sqf";
 [] execVM "scripts\werfer_restrictions.sqf";
 [] execVM "eos\OpenMe.sqf";
-
+//KI
+[] execVM "scripts\VCOMAI\init.sqf";
+player setVariable ["FiredTime", 0];
+player setVariable ["PLAYERCOMMANDER", 1];
+player addEventHandler ["Fired",{null = [_this] spawn FiredAtTarget;}];
+//Tragen
+0 = execVM "scripts\BDD\Greifer.sqf";
+//Performance
+[] execVM "scripts\module_performance\module_monitor\init.sqf";
+[] execVM "scripts\module_performance\module_cleanup\init.sqf";
+//Fahrzeug restr.
+[["restricted vehicles"],["allowed drivers"], "message upon ejection",true,true,true] execVM "scripts\restrictVehicles.sqf";
+//Atombombe
+mdh_nuke_destruction_zone	= 2000;	// DESTRUCTION ZONE 
+mdh_nuke_camshake			= 1;	// CAEMRASHAKE 
+mdh_nuke_ash				= 1;	// ASH 
+mdh_nuke_colorcorrection	= 0;	// COLLORCORRECTION 
+//------------------------------------------------------------------------------
 // Zufallsmission Start
 //if (isDedicated) then {
 missionMarker = ["M001", "M002" ];
