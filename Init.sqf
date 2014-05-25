@@ -17,6 +17,7 @@ if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 if (!isMultiplayer) then { enableSaving [true, true]; } else { enableSaving [true, true]; };
 enableSaving [false, false];
 attached = false; //BDD
+
 // Intro
 [0, 0] spawn BIS_fnc_cinemaBorder;
 showHUD false;
@@ -42,7 +43,7 @@ titleCut ["", "BLACK FADED", 12];
 	sleep 10;
 	["<t size='0.7'>" + "Intro by<br/>" + "</t>" + "<t size='0.5'>" + "Continuum" + "</t>",-0.5,0.1,3,-1,0,3011] call bis_fnc_dynamicText;
 	sleep 10;
-	//["<t size='0.7'>" + "Rüdiger?<br/>" + "</t>" + "<t size='0.5'>" + "Kein Penis!" + "</t>",0.5,0.1,3,-1,0,3011] call bis_fnc_dynamicText;
+	//["<t size='0.7'>" + "platzhalter<br/>" + "</t>" + "<t size='0.5'>" + "platzhalter" + "</t>",0.5,0.1,3,-1,0,3011] call bis_fnc_dynamicText;
 	showHUD true;
 };
 
@@ -54,25 +55,29 @@ _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\waffen_restrictions.sqf";
 [] execVM "scripts\werfer_restrictions.sqf";
 [] execVM "eos\OpenMe.sqf";
-[]execVM "scripts\briefing.sqf";
+[] execVM "scripts\briefing.sqf";
+[] execVM "scripts\R3F_ARTY_AND_LOG\init.sqf";
+
 //KI
 [] execVM "scripts\VCOMAI\init.sqf";
 player setVariable ["FiredTime", 0];
 player setVariable ["PLAYERCOMMANDER", 1];
 player addEventHandler ["Fired",{null = [_this] spawn FiredAtTarget;}];
-//Tragen
-0 = execVM "scripts\BDD\Greifer.sqf";
+
 //Performance
 [] execVM "scripts\module_performance\module_monitor\init.sqf";
 [] execVM "scripts\module_performance\module_cleanup\init.sqf";
+
 //Fahrzeug restr.
 [["restricted vehicles"],["allowed drivers"], "message upon ejection",true,true,true] execVM "scripts\restrictVehicles.sqf";
+
 //Atombombe
-mdh_nuke_destruction_zone	= 2000;	// DESTRUCTION ZONE 
-mdh_nuke_camshake			= 1;	// CAEMRASHAKE 
-mdh_nuke_ash				= 1;	// ASH 
-mdh_nuke_colorcorrection	= 0;	// COLLORCORRECTION 
+mdh_nuke_destruction_zone	= 2000;	// DESTRUCTION ZONE
+mdh_nuke_camshake			= 1;	// CAEMRASHAKE
+mdh_nuke_ash				= 1;	// ASH
+mdh_nuke_colorcorrection	= 0;	// COLLORCORRECTION
 //------------------------------------------------------------------------------
+
 // Zufallsmission Start
 //if (isDedicated) then {
 missionMarker = ["M001", "M002" ];
@@ -80,5 +85,6 @@ initMission = 0;
 activeMission =0;
 mission_Sign setObjectTextureGlobal [0, "pictures\mission\0.jpg"]
 //};
+
 // Task Force Radio
 tf_no_auto_long_range_radio = true;
