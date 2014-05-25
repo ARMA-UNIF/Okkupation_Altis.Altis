@@ -16,7 +16,8 @@ if (isDedicated) exitWith {};
 _maschWaffen = ["LMG_mas_M249_F", "LMG_mas_Mk48_F", "LMG_mas_M249_F_v", "LMG_mas_M249_F_d", "LMG_mas_Mk48_F_v", "LMG_mas_Mk48_F_d", "LMG_mas_M240_F", "LMG_mas_mg3_F"];
 _pabwehrWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d"];
 _luabwehrWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d"];
-
+_granatWaffen = ["G36agl", "G36kgl", "arifle_mas_g3_m203", "arifle_mas_hk416_m203", "arifle_mas_hk416_m203_v", "arifle_mas_hk416_m203_d", "arifle_mas_hk416_m203c", "arifle_mas_hk416_m203c_v", "arifle_mas_hk416_m203c_d", "arifle_mas_hk417_m203c","arifle_mas_hk417_m203c_v", "arifle_mas_hk417_m203c_d",];
+_saniWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d"];
 
 sleep 1;
 
@@ -43,6 +44,24 @@ while {true} do
 		};  
 		// ----- Klasse "Luftabwehr" ----
 		if ( !(primaryWeapon player in _luabwehrWaffen ) && (player isKindOf "B_soldier_AA_F")) then 
+		{
+		player removeWeapon (primaryWeapon player)
+		}
+		else
+		{
+		nil
+		};  
+		// ----- Klasse "Grenadier" ----
+		if ( !(primaryWeapon player in _granatWaffen ) && (player isKindOf "B_soldier_GL_F")) then 
+		{
+		player removeWeapon (primaryWeapon player)
+		}
+		else
+		{
+		nil
+		};  
+		// ----- Klasse "Sani" ----
+		if ( !(primaryWeapon player in _saniWaffen ) && (player isKindOf "B_soldier_B_medic_F")) then 
 		{
 		player removeWeapon (primaryWeapon player)
 		}

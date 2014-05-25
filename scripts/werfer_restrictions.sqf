@@ -13,12 +13,12 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 if (isDedicated) exitWith {};
 
 _panzerKlasse = ["launch_B_Titan_short_F", "mas_launch_M136_F" ];
-_panzerKlasseM136 = ["mas_launch_M136_F"];
+_panzerKlasseM136 = ["launch_B_Titan_short_F","mas_launch_Stinger_F" ];
 _luftKlasse = ["mas_launch_Stinger_F"];
 _verbotenKlasse = ["launch_B_Titan_short_F", "mas_launch_M136_F", "mas_launch_Stinger_F"];
 
 while {true} do
-{		
+{		//-------------------------------------------------------------------------------------------------------------------------
 		// ----- Klasse "Verboten Abfrage" ----
 		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_soldier_AR_F")) then 
 		{
@@ -28,6 +28,15 @@ while {true} do
 		{
 		nil
 		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_soldier_B_medic_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		//-------------------------------------------------------------------------------------------------------------------------
 		// ----- Klasse "Panzerabwehr Abfrage" ----
 		if ( (secondaryWeapon player in _luftKlasse ) && (player isKindOf "B_soldier_AT_F")) then 
 		{
@@ -38,7 +47,15 @@ while {true} do
 		nil
 		};
 		// ----- Klasse "Panzerabwehr M136" ----
-		
+		if ( (secondaryWeapon player in _panzerKlasseM136 ) && (player isKindOf "B_soldier_GL_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		//-------------------------------------------------------------------------------------------------------------------------
 		// ----- Klasse "Luftabwehr Abfrage" ----
 		if ( (secondaryWeapon player in _panzerKlasse ) && (player isKindOf "B_soldier_AA_F")) then 
 		{
@@ -48,6 +65,7 @@ while {true} do
 		{
 		nil
 		};
+		//-------------------------------------------------------------------------------------------------------------------------
 			
 	sleep 30;
 };
