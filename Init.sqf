@@ -56,6 +56,8 @@ _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\werfer_restrictions.sqf";
 [] execVM "eos\OpenMe.sqf";
 [] execVM "scripts\briefing.sqf";
+
+//Tragen
 [] execVM "scripts\R3F_ARTY_AND_LOG\init.sqf";
 
 //KI

@@ -33,7 +33,6 @@ enableDebugConsole = 0;
 allowFunctionsLog = 0;
 disableChannels[] = {0,1,2,3,4,5};
 // disableChannels 0=Global, 1=Side, 2=Com, 3=Grp, 4=Fhz, 5=Direkt, 6=System
-enableItemsDropping = 1
 class CfgMusic
 {
 	tracks[]={};
