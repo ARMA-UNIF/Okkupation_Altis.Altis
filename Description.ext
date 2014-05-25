@@ -37,12 +37,12 @@ enableItemsDropping = 1
 class CfgMusic
 {
 	tracks[]={};
-	
+
 	class nuke
 	{
 		name = "";
 		sound[] = {"scripts\nuke\nuke.ogg", db+5, 1.0};
-	};	
+	};
 };
 class Header
 {
@@ -65,6 +65,7 @@ class CfgDebriefing
 };
 
 #include "taw_vd\dialog.hpp"
+#include "scripts\R3F_ARTY_AND_LOG\desc_include.h"
 
 class CfgFunctions
 {
