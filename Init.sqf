@@ -47,13 +47,14 @@ titleCut ["", "BLACK FADED", 12];
 };
 
 // scripts ------------------------------------------------------------------
-//_igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
+_igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\zlt_fieldrepair.sqf";
 [] execVM "scripts\real_weather.sqf";
 [] execVM "scripts\waffenbox.sqf";
 [] execVM "scripts\waffen_restrictions.sqf";
 [] execVM "scripts\werfer_restrictions.sqf";
 [] execVM "eos\OpenMe.sqf";
+[]execVM "scripts\briefing.sqf";
 //KI
 [] execVM "scripts\VCOMAI\init.sqf";
 player setVariable ["FiredTime", 0];
