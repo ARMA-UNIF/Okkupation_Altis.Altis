@@ -10,15 +10,9 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
-<<<<<<< HEAD
 if (isDedicated) exitWith {};
 if (!isDedicated) then //Server
 //if (true) then 
-=======
-//if (isDedicated) exitWith {};
-if (!isDedicated) then //Server
-if (true) then
->>>>>>> e076a1af6ae88d2005ba58b9f9755e08fadb5489
 {
 	waitUntil {(player == player)&&(alive player)};
 };
