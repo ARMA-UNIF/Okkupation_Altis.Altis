@@ -28,7 +28,7 @@ while {true} do
 		{
 		nil
 		};
-		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_soldier_B_medic_F")) then 
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_medic_F")) then 
 		{
 		player removeWeapon (secondaryWeapon player)
 		}
@@ -36,6 +36,95 @@ while {true} do
 		{
 		nil
 		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_Helipilot_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_helicrew_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_Pilot_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_officer_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_soldier_exp_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_crew_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_Soldier_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_Soldier_SL_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_soldier_M_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_spotter_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _verbotenKlasse ) && (player isKindOf "B_sniper_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		
 		//-------------------------------------------------------------------------------------------------------------------------
 		// ----- Klasse "Panzerabwehr Abfrage" ----
 		if ( (secondaryWeapon player in _luftKlasse ) && (player isKindOf "B_soldier_AT_F")) then 
@@ -48,6 +137,14 @@ while {true} do
 		};
 		// ----- Klasse "Panzerabwehr M136" ----
 		if ( (secondaryWeapon player in _panzerKlasseM136 ) && (player isKindOf "B_soldier_GL_F")) then 
+		{
+		player removeWeapon (secondaryWeapon player)
+		}
+		else
+		{
+		nil
+		};
+		if ( (secondaryWeapon player in _panzerKlasseM136 ) && (player isKindOf "B_engineer_F")) then 
 		{
 		player removeWeapon (secondaryWeapon player)
 		}

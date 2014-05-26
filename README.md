@@ -7,6 +7,10 @@ Arma 3 Hardcore MP Mode
 //Okkupation Altis Chancelog:
 //-------------------------------
 
+Ver. 0.3
+- Klassen und Ausrüstung fertiggestellt
+- Main Base 95% fertig
+
 Ver. 0.2b
 - Map update
 - Scripte eingebunden
