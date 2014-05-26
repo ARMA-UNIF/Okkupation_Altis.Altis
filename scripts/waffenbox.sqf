@@ -10,9 +10,15 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
+<<<<<<< HEAD
 if (isDedicated) exitWith {};
 if (!isDedicated) then //Server
 //if (true) then 
+=======
+//if (isDedicated) exitWith {};
+if (!isDedicated) then //Server
+if (true) then
+>>>>>>> e076a1af6ae88d2005ba58b9f9755e08fadb5489
 {
 	waitUntil {(player == player)&&(alive player)};
 };
@@ -37,7 +43,7 @@ if (player isKindOf "B_soldier_AR_F") then {
 		["LMG_mas_Mk48_F_d",1],
 		["LMG_mas_M240_F",1],
 		["LMG_mas_mg3_F",1],
-		
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -52,7 +58,7 @@ if (player isKindOf "B_soldier_AR_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -63,23 +69,23 @@ if (player isKindOf "B_soldier_AR_F") then {
 		["100Rnd_mas_762x51_Stanag",5],
 		["100Rnd_mas_762x51_T_Stanag",5],
 		["150Rnd_762x51_Box",5],
-		["150Rnd_762x51_Box_Tracer",5], 
-		
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+		["150Rnd_762x51_Box_Tracer",5],
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-		
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -89,7 +95,7 @@ if (player isKindOf "B_soldier_AR_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -219,7 +225,7 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["arifle_mas_hk417c_d",1],
 		["launch_B_Titan_short_F ",1],
 		["mas_launch_M136_F",1],
-		
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -234,7 +240,7 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -247,22 +253,22 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["30Rnd_mas_556x45_T_Stanag",10],
 		["Titan_AP ",4],
 		["mas_M136",4],
-				
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-		
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -272,7 +278,7 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -297,7 +303,7 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["acc_mas_pointer_IR",1],
 		["FHQ_optic_AC11704",1],
 		["FHQ_optic_AC11704_tan",1],
-		
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -367,8 +373,8 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]		
-		
+		["NVGoggles_OPFOR",1]
+
 	];
 		_backpack =
 		[
@@ -411,7 +417,7 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["arifle_mas_hk417c",1],
 		["arifle_mas_hk417c_v",1],
 		["arifle_mas_hk417c_d",1],
-		["mas_launch_Stinger_F",1],		
+		["mas_launch_Stinger_F",1],
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -426,7 +432,7 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -438,22 +444,22 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["30Rnd_mas_556x45_Stanag",10],
 		["30Rnd_mas_556x45_T_Stanag",10],
 		["mas_Stinger ",4],
-						
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-		
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -463,7 +469,7 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -488,7 +494,7 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["acc_mas_pointer_IR",1],
 		["FHQ_optic_AC11704",1],
 		["FHQ_optic_AC11704_tan",1],
-		
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -558,7 +564,7 @@ if (player isKindOf "B_soldier_AA_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -598,7 +604,7 @@ if (player isKindOf "B_soldier_GL_F") then {
 		["arifle_mas_hk417_m203c",1],
 		["arifle_mas_hk417_m203c_v",1],
 		["arifle_mas_hk417_m203c_d",1],
-								
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -613,7 +619,7 @@ if (player isKindOf "B_soldier_GL_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -624,18 +630,18 @@ if (player isKindOf "B_soldier_GL_F") then {
 		["20Rnd_mas_762x51_T_Stanag",10],
 		["30Rnd_mas_556x45_Stanag",10],
 		["30Rnd_mas_556x45_T_Stanag",10],
-								
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
@@ -652,7 +658,7 @@ if (player isKindOf "B_soldier_GL_F") then {
 		["1Rnd_SmokePurple_Grenade_shell",5],
 		["1Rnd_SmokeBlue_Grenade_shell",5],
 		["1Rnd_SmokeOrange_Grenade_shell",5],
-				
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -662,7 +668,7 @@ if (player isKindOf "B_soldier_GL_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -687,7 +693,7 @@ if (player isKindOf "B_soldier_GL_F") then {
 		["acc_mas_pointer_IR",1],
 		["FHQ_optic_AC11704",1],
 		["FHQ_optic_AC11704_tan",1],
-		
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -757,7 +763,7 @@ if (player isKindOf "B_soldier_GL_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -795,8 +801,8 @@ if (player isKindOf "B_medic_F") then {
 		["arifle_mas_hk416c_d",1],
 		["arifle_mas_hk417c",1],
 		["arifle_mas_hk417c_v",1],
-		["arifle_mas_hk417c_d",1],				
-								
+		["arifle_mas_hk417c_d",1],
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -811,7 +817,7 @@ if (player isKindOf "B_medic_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -822,22 +828,22 @@ if (player isKindOf "B_medic_F") then {
 		["20Rnd_mas_762x51_T_Stanag",10],
 		["30Rnd_mas_556x45_Stanag",10],
 		["30Rnd_mas_556x45_T_Stanag",10],
-								
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -847,7 +853,7 @@ if (player isKindOf "B_medic_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -872,7 +878,7 @@ if (player isKindOf "B_medic_F") then {
 		["acc_mas_pointer_IR",1],
 		["FHQ_optic_AC11704",1],
 		["FHQ_optic_AC11704_tan",1],
-		
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -942,7 +948,7 @@ if (player isKindOf "B_medic_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -981,7 +987,7 @@ if (player isKindOf "B_Helipilot_F") then {
 		["arifle_mas_mp5_v",1],
 		["arifle_mas_mp5_d",1],
 		["arifle_mas_mp5sd",1],
-												
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -996,7 +1002,7 @@ if (player isKindOf "B_Helipilot_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -1007,22 +1013,22 @@ if (player isKindOf "B_Helipilot_F") then {
 		["30Rnd_9x21_Mag",10],
 		["30Rnd_mas_9x21_Stanag",10],
 		["30Rnd_mas_9x21d_Stanag",10],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-					
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -1032,7 +1038,7 @@ if (player isKindOf "B_Helipilot_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -1050,7 +1056,7 @@ if (player isKindOf "B_Helipilot_F") then {
 		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
-				
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -1122,7 +1128,7 @@ if (player isKindOf "B_Helipilot_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -1161,7 +1167,7 @@ if (player isKindOf "B_helicrew_F") then {
 		["arifle_mas_mp5_v",1],
 		["arifle_mas_mp5_d",1],
 		["arifle_mas_mp5sd",1],
-												
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -1176,7 +1182,7 @@ if (player isKindOf "B_helicrew_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -1187,22 +1193,22 @@ if (player isKindOf "B_helicrew_F") then {
 		["30Rnd_9x21_Mag",10],
 		["30Rnd_mas_9x21_Stanag",10],
 		["30Rnd_mas_9x21d_Stanag",10],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-					
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -1212,7 +1218,7 @@ if (player isKindOf "B_helicrew_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -1230,7 +1236,7 @@ if (player isKindOf "B_helicrew_F") then {
 		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
-				
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -1302,7 +1308,7 @@ if (player isKindOf "B_helicrew_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -1341,7 +1347,7 @@ if (player isKindOf "B_Pilot_F") then {
 		//["arifle_mas_mp5_v",1],
 		//["arifle_mas_mp5_d",1],
 		//["arifle_mas_mp5sd",1],
-												
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -1356,7 +1362,7 @@ if (player isKindOf "B_Pilot_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -1367,22 +1373,22 @@ if (player isKindOf "B_Pilot_F") then {
 		//["30Rnd_9x21_Mag",10],
 		//["30Rnd_mas_9x21_Stanag",10],
 		//["30Rnd_mas_9x21d_Stanag",10],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-					
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		//["HandGrenade",5],
 		//["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -1392,7 +1398,7 @@ if (player isKindOf "B_Pilot_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -1410,7 +1416,7 @@ if (player isKindOf "B_Pilot_F") then {
 		//["tmr_muzzle_snds_l_smg",1],
 		//["muzzle_snds_L ",1],
 		//["muzzle_mas_snds_c",1],
-				
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -1482,7 +1488,7 @@ if (player isKindOf "B_Pilot_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -1521,7 +1527,7 @@ if (player isKindOf "B_officer_F") then {
 		//["arifle_mas_mp5_v",1],
 		//["arifle_mas_mp5_d",1],
 		//["arifle_mas_mp5sd",1],
-												
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -1536,7 +1542,7 @@ if (player isKindOf "B_officer_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -1547,22 +1553,22 @@ if (player isKindOf "B_officer_F") then {
 		//["30Rnd_9x21_Mag",10],
 		//["30Rnd_mas_9x21_Stanag",10],
 		//["30Rnd_mas_9x21d_Stanag",10],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-					
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		//["HandGrenade",5],
 		//["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -1572,7 +1578,7 @@ if (player isKindOf "B_officer_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -1590,7 +1596,7 @@ if (player isKindOf "B_officer_F") then {
 		//["tmr_muzzle_snds_l_smg",1],
 		//["muzzle_snds_L ",1],
 		//["muzzle_mas_snds_c",1],
-				
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -1610,7 +1616,7 @@ if (player isKindOf "B_officer_F") then {
 		["RH_muzisd",1],
 		//-----------Kit-------- //
 		//["Binocular", 1],
-		["Rangefinder", 1],		
+		["Rangefinder", 1],
 		//-----------Uniform-------- //
 		["ARC_GER_Tropentarn_Uniform_vest",1],
 		["ARC_GER_Tropentarn_Uniform_Light",1],
@@ -1663,7 +1669,7 @@ if (player isKindOf "B_officer_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -1705,7 +1711,7 @@ if (player isKindOf "B_engineer_F") then {
 		["arifle_mas_mp5sd",1],
 		["arifle_mas_m1014",1],
 		["mas_launch_M136_F",1],
-												
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -1720,7 +1726,7 @@ if (player isKindOf "B_engineer_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -1734,22 +1740,22 @@ if (player isKindOf "B_engineer_F") then {
 		["7Rnd_mas_12Gauge_Slug",10],
 		["7Rnd_mas_12Gauge_Pellets",10],
 		["mas_M136",4],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-					
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -1759,7 +1765,7 @@ if (player isKindOf "B_engineer_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -1777,7 +1783,7 @@ if (player isKindOf "B_engineer_F") then {
 		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
-				
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -1831,7 +1837,7 @@ if (player isKindOf "B_engineer_F") then {
 		["ARC_GER_Flecktarn_Helmet",1],
 		["ARC_GER_Flecktarn_Helmet_Light",1],
 		["ARC_GER_Flecktarn_Helmet_simple",1],
-		
+
 		["H_HelmetB_light_black",1],
 		["H_Bandanna_gry",1],
 		["ARC_Black_M2000",1],
@@ -1844,11 +1850,11 @@ if (player isKindOf "B_engineer_F") then {
 		//["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
-		
+
 		//-----------Rucksäcke-------- //
 		["ARC_GER_Backpack_Flecktarn_Rep",1],
 		["ARC_GER_Backpack_Tropentarn_Rep",1],
@@ -1872,8 +1878,8 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["arifle_mas_hk416c_d",1],
 		["arifle_mas_hk417c",1],
 		["arifle_mas_hk417c_v",1],
-		["arifle_mas_hk417c_d",1],				
-								
+		["arifle_mas_hk417c_d",1],
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -1888,7 +1894,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -1899,22 +1905,22 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["20Rnd_mas_762x51_T_Stanag",10],
 		["30Rnd_mas_556x45_Stanag",10],
 		["30Rnd_mas_556x45_T_Stanag",10],
-								
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-		
+
 	//-----------Sprengstoffe------- //
 		["ATMine_Range_Mag",5],
 		["APERSMine_Range_Mag",5],
@@ -1924,7 +1930,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["ClaymoreDirectionalMine_Remote_Mag",5],
 		["SatchelCharge_Remote_Mag",5],
 		["DemoCharge_Remote_Mag",5],
-		
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -1934,7 +1940,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -1959,7 +1965,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["acc_mas_pointer_IR",1],
 		["FHQ_optic_AC11704",1],
 		["FHQ_optic_AC11704_tan",1],
-		
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -1986,7 +1992,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["ARC_GER_Flecktarn_Uniform_vest",1],
 		["ARC_GER_Flecktarn_Uniform_Light",1],
 		["SMD_US_BLOPS_Digi_BDU",1],
-		
+
 		//-----------Westen-------- //
 		["ARC_GER_Tropentarn_PlateCarrier",1],
 		["ARC_GER_Tropentarn_PlateCarrier_1",1],
@@ -2003,7 +2009,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["V_TacVestIR_blk",1],
 		["V_Chestrig_blk",1],
 		["V_PlateCarrier1_blk",1],
-		
+
 		//-----------Helme-------- //
 		["ARC_GER_Tropentarn_Mich",1],
 		["ARC_GER_Tropentarn_booniehat",1],
@@ -2024,10 +2030,10 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["H_Bandanna_gry",1],
 		["ARC_Black_M2000",1],
 		["ARC_UN_M2000",1],
-		
+
 		//-----------Kit-------- //
 		["MineDetector", 1],
-		
+
 		//-----------Brillen-------- //
 		["G_Tactical_Clear",1],
 		["G_Lowprofile",1],
@@ -2035,7 +2041,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -2070,7 +2076,7 @@ if (player isKindOf "B_crew_F") then {
 		["arifle_mas_mp5_v",1],
 		["arifle_mas_mp5_d",1],
 		["arifle_mas_mp5sd",1],
-												
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -2085,7 +2091,7 @@ if (player isKindOf "B_crew_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -2096,22 +2102,22 @@ if (player isKindOf "B_crew_F") then {
 		["30Rnd_9x21_Mag",10],
 		["30Rnd_mas_9x21_Stanag",10],
 		["30Rnd_mas_9x21d_Stanag",10],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-					
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -2121,7 +2127,7 @@ if (player isKindOf "B_crew_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -2139,7 +2145,7 @@ if (player isKindOf "B_crew_F") then {
 		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
-				
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -2211,7 +2217,7 @@ if (player isKindOf "B_crew_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -2253,8 +2259,8 @@ if (player isKindOf "B_Soldier_F") then {
 		["arifle_mas_hk416c_d",1],
 		["arifle_mas_hk417c",1],
 		["arifle_mas_hk417c_v",1],
-		["arifle_mas_hk417c_d",1],				
-								
+		["arifle_mas_hk417c_d",1],
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -2269,7 +2275,7 @@ if (player isKindOf "B_Soldier_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -2280,22 +2286,22 @@ if (player isKindOf "B_Soldier_F") then {
 		["20Rnd_mas_762x51_T_Stanag",10],
 		["30Rnd_mas_556x45_Stanag",10],
 		["30Rnd_mas_556x45_T_Stanag",10],
-								
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -2305,7 +2311,7 @@ if (player isKindOf "B_Soldier_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -2330,7 +2336,7 @@ if (player isKindOf "B_Soldier_F") then {
 		["acc_mas_pointer_IR",1],
 		["FHQ_optic_AC11704",1],
 		["FHQ_optic_AC11704_tan",1],
-		
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -2400,7 +2406,7 @@ if (player isKindOf "B_Soldier_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -2443,8 +2449,8 @@ if (player isKindOf "B_Soldier_SL_F") then {
 		["arifle_mas_hk416c_d",1],
 		["arifle_mas_hk417c",1],
 		["arifle_mas_hk417c_v",1],
-		["arifle_mas_hk417c_d",1],				
-								
+		["arifle_mas_hk417c_d",1],
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -2459,7 +2465,7 @@ if (player isKindOf "B_Soldier_SL_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -2470,22 +2476,22 @@ if (player isKindOf "B_Soldier_SL_F") then {
 		["20Rnd_mas_762x51_T_Stanag",10],
 		["30Rnd_mas_556x45_Stanag",10],
 		["30Rnd_mas_556x45_T_Stanag",10],
-								
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-						
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -2496,7 +2502,7 @@ if (player isKindOf "B_Soldier_SL_F") then {
 		["Chemlight_green",5],
 		["Chemlight_red",5],
 		["Laserbatteries",2],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -2523,7 +2529,7 @@ if (player isKindOf "B_Soldier_SL_F") then {
 		["FHQ_optic_AC11704_tan",1],
 		//-----------Kit-------- //
 		["Laserdesignator", 1],
-		
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -2593,7 +2599,7 @@ if (player isKindOf "B_Soldier_SL_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -2632,7 +2638,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["srifle_mas_hk417",1],
 		["srifle_mas_hk417_v",1],
 		["srifle_mas_hk417_d",1],
-								
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -2647,7 +2653,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -2657,22 +2663,22 @@ if (player isKindOf "B_soldier_M_F") then {
 		["20Rnd_mas_762x51_T_Stanag",10],
 		["20Rnd_mas_762x51_Stanag",10],
 		["20Rnd_mas_762x51_T_Stanag",10],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-		
+
 	//-----------Sprengstoffe------- //
 		//["ATMine_Range_Mag",5],
 		//["APERSMine_Range_Mag",5],
@@ -2682,7 +2688,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		//["ClaymoreDirectionalMine_Remote_Mag",5],
 		//["SatchelCharge_Remote_Mag",5],
 		//["DemoCharge_Remote_Mag",5],
-		
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -2692,7 +2698,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["SmokeShellBlue",5],
 		["Chemlight_green",5],
 		["Chemlight_red",5],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -2706,7 +2712,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["optic_mas_zeiss_c",1],
 		["optic_mas_zeiss",1],
 		["optic_SOS",1],
-			
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -2726,7 +2732,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["RH_muzisd",1],
 		//-----------Kit-------- //
 		["Binocular", 1],
-		
+
 		//-----------Uniform-------- //
 		["ARC_GER_Tropentarn_Uniform_vest",1],
 		["ARC_GER_Tropentarn_Uniform_Light",1],
@@ -2734,7 +2740,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["ARC_GER_Flecktarn_Uniform_vest",1],
 		["ARC_GER_Flecktarn_Uniform_Light",1],
 		["SMD_US_BLOPS_Digi_BDU",1],
-		
+
 		//-----------Westen-------- //
 		["ARC_GER_Tropentarn_PlateCarrier",1],
 		["ARC_GER_Tropentarn_PlateCarrier_1",1],
@@ -2751,7 +2757,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["V_TacVestIR_blk",1],
 		["V_Chestrig_blk",1],
 		["V_PlateCarrier1_blk",1],
-		
+
 		//-----------Helme-------- //
 		["ARC_GER_Tropentarn_Mich",1],
 		["ARC_GER_Tropentarn_booniehat",1],
@@ -2772,10 +2778,10 @@ if (player isKindOf "B_soldier_M_F") then {
 		["H_Bandanna_gry",1],
 		["ARC_Black_M2000",1],
 		["ARC_UN_M2000",1],
-		
+
 		//-----------Kit-------- //
 		//["MineDetector", 1],
-		
+
 		//-----------Brillen-------- //
 		["G_Tactical_Clear",1],
 		["G_Lowprofile",1],
@@ -2783,7 +2789,7 @@ if (player isKindOf "B_soldier_M_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -2817,7 +2823,7 @@ if (player isKindOf "B_spotter_F") then {
 		["srifle_mas_hk417",1],
 		["srifle_mas_hk417_v",1],
 		["srifle_mas_hk417_d",1],
-								
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -2832,7 +2838,7 @@ if (player isKindOf "B_spotter_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -2842,22 +2848,22 @@ if (player isKindOf "B_spotter_F") then {
 		["20Rnd_mas_762x51_T_Stanag",10],
 		["20Rnd_mas_762x51_Stanag",10],
 		["20Rnd_mas_762x51_T_Stanag",10],
-										
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-		
+
 	//-----------Sprengstoffe------- //
 		// ["ATMine_Range_Mag",5],
 		// ["APERSMine_Range_Mag",5],
@@ -2867,7 +2873,7 @@ if (player isKindOf "B_spotter_F") then {
 		["ClaymoreDirectionalMine_Remote_Mag",5],
 		// ["SatchelCharge_Remote_Mag",5],
 		// ["DemoCharge_Remote_Mag",5],
-		
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -2878,7 +2884,7 @@ if (player isKindOf "B_spotter_F") then {
 		["Chemlight_green",5],
 		["Chemlight_red",5],
 		["Laserbatteries",1],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -2892,7 +2898,7 @@ if (player isKindOf "B_spotter_F") then {
 		["optic_mas_zeiss_c",1],
 		["optic_mas_zeiss",1],
 		["optic_SOS",1],
-			
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -2910,7 +2916,7 @@ if (player isKindOf "B_spotter_F") then {
 		["optic_MRD",1],
 		["RH_gemtech9",1],
 		["RH_muzisd",1],
-		
+
 		//-----------Uniform-------- //
 		["ARC_GER_Tropentarn_Uniform_vest",1],
 		["ARC_GER_Tropentarn_Uniform_Light",1],
@@ -2918,7 +2924,7 @@ if (player isKindOf "B_spotter_F") then {
 		["ARC_GER_Flecktarn_Uniform_vest",1],
 		["ARC_GER_Flecktarn_Uniform_Light",1],
 		["SMD_US_BLOPS_Digi_BDU",1],
-		
+
 		//-----------Westen-------- //
 		["ARC_GER_Tropentarn_PlateCarrier",1],
 		["ARC_GER_Tropentarn_PlateCarrier_1",1],
@@ -2935,7 +2941,7 @@ if (player isKindOf "B_spotter_F") then {
 		["V_TacVestIR_blk",1],
 		["V_Chestrig_blk",1],
 		["V_PlateCarrier1_blk",1],
-		
+
 		//-----------Helme-------- //
 		["ARC_GER_Tropentarn_Mich",1],
 		["ARC_GER_Tropentarn_booniehat",1],
@@ -2956,10 +2962,10 @@ if (player isKindOf "B_spotter_F") then {
 		["H_Bandanna_gry",1],
 		["ARC_Black_M2000",1],
 		["ARC_UN_M2000",1],
-		
+
 		//-----------Kit-------- //
 		["Laserdesignator", 1],
-		
+
 		//-----------Brillen-------- //
 		["G_Tactical_Clear",1],
 		["G_Lowprofile",1],
@@ -2967,7 +2973,7 @@ if (player isKindOf "B_spotter_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -3002,7 +3008,7 @@ if (player isKindOf "B_sniper_F") then {
 		["srifle_mas_m107",1],
 		["srifle_mas_m107_v",1],
 		["srifle_mas_m107_d",1],
-										
+
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
 		["RH_python",1],
@@ -3017,7 +3023,7 @@ if (player isKindOf "B_sniper_F") then {
 		["RH_fnp45t",1],
 		["RH_g19",1],
 		["RH_g19t",1],
-		["RH_muzi",1] 
+		["RH_muzi",1]
 	];
 
 	_magazines =
@@ -3028,22 +3034,22 @@ if (player isKindOf "B_sniper_F") then {
 		["5Rnd_mas_762x51_T_Stanag",10],
 		["5Rnd_mas_127x99_Stanag",10],
 		["5Rnd_mas_127x99_T_Stanag",10],
-														
-		["RH_7Rnd_50_AE",4], 
-		["RH_6Rnd_357_Mag",4], 
-		["RH_6Rnd_454_Mag",4], 
-		["RH_15Rnd_9x19_SIG",4], 
-		["RH_12Rnd_45cal_usp",4], 
-		["RH_7Rnd_45cal_m1911",4], 
-		["RH_15Rnd_9x19_M9",4], 
-		["RH_15Rnd_45cal_fnp",4], 
-		["RH_17Rnd_9x19_g17",4], 
-		["RH_30Rnd_9x19_UZI",4], 
-			
+
+		["RH_7Rnd_50_AE",4],
+		["RH_6Rnd_357_Mag",4],
+		["RH_6Rnd_454_Mag",4],
+		["RH_15Rnd_9x19_SIG",4],
+		["RH_12Rnd_45cal_usp",4],
+		["RH_7Rnd_45cal_m1911",4],
+		["RH_15Rnd_9x19_M9",4],
+		["RH_15Rnd_45cal_fnp",4],
+		["RH_17Rnd_9x19_g17",4],
+		["RH_30Rnd_9x19_UZI",4],
+
 	//-----------Granaten----------- //
 		["HandGrenade",5],
 		["MiniGrenade",5],
-		
+
 	//-----------Sprengstoffe------- //
 		// ["ATMine_Range_Mag",5],
 		// ["APERSMine_Range_Mag",5],
@@ -3053,7 +3059,7 @@ if (player isKindOf "B_sniper_F") then {
 		["ClaymoreDirectionalMine_Remote_Mag",5],
 		// ["SatchelCharge_Remote_Mag",5],
 		// ["DemoCharge_Remote_Mag",5],
-		
+
 	//-----------Rauch/Licht-------- //
 		["SmokeShell",5],
 		["SmokeShellGreen",5],
@@ -3064,7 +3070,7 @@ if (player isKindOf "B_sniper_F") then {
 		["Chemlight_green",5],
 		["Chemlight_red",5],
 		//["Laserbatteries",1],
-		["Chemlight_blue",5] 
+		["Chemlight_blue",5]
 	];
 	_items =
 	[
@@ -3077,7 +3083,7 @@ if (player isKindOf "B_sniper_F") then {
 		["optic_mas_zeiss_c",1],
 		["optic_mas_zeiss",1],
 		["optic_SOS",1],
-			
+
 	//-----------Anbauten Sec.-------- //
 		["RH_demz",1],
 		["optic_Yorris",1],
@@ -3095,7 +3101,7 @@ if (player isKindOf "B_sniper_F") then {
 		["optic_MRD",1],
 		["RH_gemtech9",1],
 		["RH_muzisd",1],
-		
+
 		//-----------Uniform-------- //
 		["ARC_GER_Tropentarn_Uniform_vest",1],
 		["ARC_GER_Tropentarn_Uniform_Light",1],
@@ -3103,7 +3109,7 @@ if (player isKindOf "B_sniper_F") then {
 		["ARC_GER_Flecktarn_Uniform_vest",1],
 		["ARC_GER_Flecktarn_Uniform_Light",1],
 		["SMD_US_BLOPS_Digi_BDU",1],
-		
+
 		//-----------Westen-------- //
 		["ARC_GER_Tropentarn_PlateCarrier",1],
 		["ARC_GER_Tropentarn_PlateCarrier_1",1],
@@ -3120,7 +3126,7 @@ if (player isKindOf "B_sniper_F") then {
 		["V_TacVestIR_blk",1],
 		["V_Chestrig_blk",1],
 		["V_PlateCarrier1_blk",1],
-		
+
 		//-----------Helme-------- //
 		["ARC_GER_Tropentarn_Mich",1],
 		["ARC_GER_Tropentarn_booniehat",1],
@@ -3141,10 +3147,10 @@ if (player isKindOf "B_sniper_F") then {
 		["H_Bandanna_gry",1],
 		["ARC_Black_M2000",1],
 		["ARC_UN_M2000",1],
-		
+
 		//-----------Kit-------- //
 		["Rangefinder", 1],
-		
+
 		//-----------Brillen-------- //
 		["G_Tactical_Clear",1],
 		["G_Lowprofile",1],
@@ -3152,7 +3158,7 @@ if (player isKindOf "B_sniper_F") then {
 		["G_Squares_Tinted",1],
 		["NVGoggles_mas",1],
 		["NVGoggles",1],
-		["NVGoggles_OPFOR",1]	
+		["NVGoggles_OPFOR",1]
 	];
 		_backpack =
 		[
@@ -3194,7 +3200,7 @@ while {true} do {
 	{_box addMagazineCargo [(_x select 0),(_x select 1)]} foreach _magazines;
 
 	{_box addItemCargo [(_x select 0),(_x select 1)]} foreach _items;
-	
+
 	{_box addBackpackCargo [(_x select 0),(_x select 1)]} foreach _backpack;
 
 	sleep _timer;

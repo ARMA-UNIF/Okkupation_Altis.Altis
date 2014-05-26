@@ -8,12 +8,9 @@ Creative Commons License
 Okkupation Altis by http://www.Arma-Unif.de  licensed under a
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
 http://creativecommons.org/licenses/by-nc-nd/4.0/
-
 */
-//Dialogs
-#include "defines.hpp"
-#include "dialogs.hpp"
-//
+
+
 author = "www.Arma-Unif.de";
 onloadname = "Okkupation Altis";
 onloadmission = "UNIF ARMA 3 Hardcore Multiplayer Modus";
@@ -51,7 +48,7 @@ class Header
 {
 	gameType = COOP;
 	minPlayers = 1;
-	maxPlayers = 40;
+	maxPlayers = 47;
 };
 
 class CfgDebriefing
@@ -69,6 +66,9 @@ class CfgDebriefing
 
 #include "taw_vd\dialog.hpp"
 #include "scripts\R3F_ARTY_AND_LOG\desc_include.h"
+//Dialogs
+#include "defines.hpp"
+#include "dialogs.hpp"
 
 class CfgFunctions
 {
