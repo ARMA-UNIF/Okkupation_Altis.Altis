@@ -128,7 +128,6 @@ class Mission
 		"A3_Soft_F_Gamma_Offroad",
 		"A3_Soft_F_Quadbike",
 		"A3_Structures_F_EPC_Items_Electronics",
-		"A3_Air_F_Heli_Light_01",
 		"a3_map_altis"
 	};
 	randomSeed=25372;
@@ -1756,7 +1755,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=589;
+		items=588;
 		class Item0
 		{
 			position[]={26818.199,0.00525284,24472};
@@ -7588,18 +7587,6 @@ class Mission
 			skill=0.60000002;
 			text="nukepos";
 			init="this addAction [""Roter Knopf"",{nuke_activated = true},this,1,true,true,"""",""isNil'nuke_activated' ""]";
-			description="Kompanieführer";
-		};
-		class Item588
-		{
-			position[]={26773.912,22.234663,24606.504};
-			azimut=214.922;
-			special="NONE";
-			id=657;
-			side="EMPTY";
-			vehicle="B_Heli_Light_01_F";
-			leader=1;
-			skill=0.60000002;
 			description="Kompanieführer";
 		};
 	};
