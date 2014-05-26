@@ -16,7 +16,6 @@ if (!isServer && isNull player) then {isJIP=true;} else {isJIP=false;};
 if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 if (!isMultiplayer) then { enableSaving [true, true]; } else { enableSaving [true, true]; };
 enableSaving [false, false];
-attached = false; //BDD
 
 // Intro
 [0, 0] spawn BIS_fnc_cinemaBorder;
