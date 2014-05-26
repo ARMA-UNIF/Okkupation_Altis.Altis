@@ -80,12 +80,12 @@ mdh_nuke_colorcorrection	= 0;	// COLLORCORRECTION
 //------------------------------------------------------------------------------
 
 // Zufallsmission Start
-//if (isDedicated) then {
+if (isDedicated) then {
 missionMarker = ["M001", "M002" ];
 initMission = 0;
 activeMission =0;
 mission_Sign setObjectTextureGlobal [0, "pictures\mission\0.jpg"]
-//};
+};
 
 // Task Force Radio
 tf_no_auto_long_range_radio = true;
