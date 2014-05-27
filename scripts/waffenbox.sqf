@@ -1047,7 +1047,6 @@ if (player isKindOf "B_Helipilot_F") then {
 		["acc_flashlight",1],
 		["fhq_acc_anpeq15_black",1],
 		["acc_mas_pointer_IR",1],
-		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
 
@@ -1227,7 +1226,6 @@ if (player isKindOf "B_helicrew_F") then {
 		["acc_flashlight",1],
 		["fhq_acc_anpeq15_black",1],
 		["acc_mas_pointer_IR",1],
-		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
 
@@ -1407,7 +1405,6 @@ if (player isKindOf "B_Pilot_F") then {
 		//["acc_flashlight",1],
 		//["fhq_acc_anpeq15_black",1],
 		//["acc_mas_pointer_IR",1],
-		//["tmr_muzzle_snds_l_smg",1],
 		//["muzzle_snds_L ",1],
 		//["muzzle_mas_snds_c",1],
 
@@ -1587,7 +1584,6 @@ if (player isKindOf "B_officer_F") then {
 		//["acc_flashlight",1],
 		//["fhq_acc_anpeq15_black",1],
 		//["acc_mas_pointer_IR",1],
-		//["tmr_muzzle_snds_l_smg",1],
 		//["muzzle_snds_L ",1],
 		//["muzzle_mas_snds_c",1],
 
@@ -1774,7 +1770,6 @@ if (player isKindOf "B_engineer_F") then {
 		["acc_flashlight",1],
 		["fhq_acc_anpeq15_black",1],
 		["acc_mas_pointer_IR",1],
-		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
 
@@ -2136,7 +2131,6 @@ if (player isKindOf "B_crew_F") then {
 		["acc_flashlight",1],
 		["fhq_acc_anpeq15_black",1],
 		["acc_mas_pointer_IR",1],
-		["tmr_muzzle_snds_l_smg",1],
 		["muzzle_snds_L ",1],
 		["muzzle_mas_snds_c",1],
 
