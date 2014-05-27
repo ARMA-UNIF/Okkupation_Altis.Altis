@@ -23,7 +23,7 @@
 	// Real time vs fast time
 	// true: Real time is more realistic weather conditions change slowly (ideal for persistent game)
 	// false: fast time give more different weather conditions (ideal for non persistent game)
-	_realtime = true;
+	_realtime = false;
 
 	// Random time before new forecast
 	// true: forecast happens bewteen mintime and maxtime
@@ -34,20 +34,20 @@
 	_mintime = 600;
 
 	// Max time seconds (real time) before a new weather forecast
-	_maxtime = 1200;
+	_maxtime = 1800;
 
 	// If Fastime is on
 	// Ratio 1 real time second for x game time seconds
 	// Default: 1 real second = 3.6 second in game
-	_timeratio = 3.6;
+	_timeratio = 6;
 
 	// send sync data across the network each xxx seconds
 	// 60 seconds by default is a good value
 	// shortest time do not improve weather sync
-	_timesync = 30;
+	_timesync = 60;
 
 	// Mission starting date is 25/09/2013 at 12:00
-    _startingdate = [2023, 07, 06, 10, 20];
+    _startingdate = [2035, 07, 06, 07, 30];
 
     if (G_DEBUG) then { _startingdate = [2014, 07, 01, 12, 00]; };
     //if (G_DEBUG) then { _startingdate = [2014, 10, 30, 1, 00]; };
