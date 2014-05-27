@@ -273,7 +273,7 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					syncId=0;
-					synchronizations[]={9,10,23};
+					synchronizations[]={23};
 				};
 			};
 		};
@@ -703,7 +703,7 @@ class Mission
 					text="zeus1";
 					description="Spielleiter";
 					syncId=9;
-					synchronizations[]={4,0,21};
+					synchronizations[]={4};
 				};
 			};
 		};
@@ -725,7 +725,7 @@ class Mission
 					text="zeus2";
 					description="Spielleiter";
 					syncId=10;
-					synchronizations[]={8,0,21};
+					synchronizations[]={8};
 				};
 			};
 		};
@@ -1457,7 +1457,7 @@ class Mission
 					id=57;
 					side="WEST";
 					vehicle="B_officer_F";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
@@ -1622,7 +1622,7 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					syncId=21;
-					synchronizations[]={20,19,18,16,17,14,13,12,11,22,10,9,15};
+					synchronizations[]={20,19,18,16,17,14,13,12,11,22,15};
 				};
 			};
 		};
@@ -1717,10 +1717,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={26822.152,23.371347,24598.533};
+					position[]={26833.826,23.004234,24612.379};
 					id=67;
 					side="WEST";
 					vehicle="b_survivor_F";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					syncId=23;
@@ -7626,7 +7627,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=5;
+		items=6;
 		class Item0
 		{
 			position[]={26804.699,0,24602.699};
@@ -7698,6 +7699,19 @@ class Mission
 			age="UNKNOWN";
 			expActiv="Schranke_2 animate ['Door_1_rot', 1]; Wache action ['salute', Wache_2];";
 			expDesactiv="Schranke_2 animate ['Door_1_rot', 0]; Wache action ['salute', Wache_2];";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={26826.063,22.685715,24617.654};
+			a=2;
+			b=2;
+			activationBy="WEST";
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null=[]execVM ""scripts\waffenausgabe.sqf"";";
 			class Effects
 			{
 			};

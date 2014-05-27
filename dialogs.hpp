@@ -26,7 +26,7 @@ class ausgabe_bild: RscPicture
 	w = 0.0360937 * safezoneW;
 	h = 0.055 * safezoneH;
 };
-class ausgabe_button: RscButtonMenuOK
+class ausgabe_button: RscButton
 {
 	text = "Salutieren"; //--- ToDo: Localize;
 	x = 0.469062 * safezoneW + safezoneX;
