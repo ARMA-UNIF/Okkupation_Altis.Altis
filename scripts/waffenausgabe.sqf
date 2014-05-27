@@ -1,1 +1,0 @@
-_handle = createdialog "dialog_waffenausgabe";

@@ -51,13 +51,11 @@ _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\zlt_fieldrepair.sqf";
 [] execVM "scripts\real_weather.sqf";
 [] execVM "eos\OpenMe.sqf";
-
-if !(isDedicated) then {
 [] execVM "scripts\waffenbox.sqf";
 [] execVM "scripts\waffen_restrictions.sqf";
 [] execVM "scripts\werfer_restrictions.sqf";
 [] execVM "scripts\briefing.sqf";
-};
+[] execVM "scripts\respawn.sqf";
 
 //Tragen
 [] execVM "scripts\R3F_ARTY_AND_LOG\init.sqf";

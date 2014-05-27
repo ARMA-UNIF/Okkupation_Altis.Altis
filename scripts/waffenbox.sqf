@@ -94,6 +94,7 @@ if (player isKindOf "B_soldier_AR_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["optic_hamr",1],
 		["optic_NVS",1],
@@ -276,6 +277,7 @@ if (player isKindOf "B_soldier_AT_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["FHQ_acc_LLM01L",1],
 		["FHQ_acc_LLM01F",1],
@@ -463,6 +465,7 @@ if (player isKindOf "B_soldier_AA_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["FHQ_acc_LLM01L",1],
 		["FHQ_acc_LLM01F",1],
@@ -662,6 +665,7 @@ if (player isKindOf "B_soldier_GL_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["FHQ_acc_LLM01L",1],
 		["FHQ_acc_LLM01F",1],
@@ -847,6 +851,7 @@ if (player isKindOf "B_medic_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["FHQ_acc_LLM01L",1],
 		["FHQ_acc_LLM01F",1],
@@ -960,7 +965,6 @@ if (player isKindOf "B_medic_F") then {
 		//["B_AssaultPack_blk",1],
 		//["B_FieldPack_blk",1]
 		];
-
 };
 
 // Ausrüstung Klasse "HeliPilot"
@@ -1032,6 +1036,7 @@ if (player isKindOf "B_Helipilot_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["muzzle_snds_acp ",1],
 		["optic_Aco_smg ",1],
@@ -1211,6 +1216,7 @@ if (player isKindOf "B_helicrew_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["muzzle_snds_acp ",1],
 		["optic_Aco_smg ",1],
@@ -1390,6 +1396,7 @@ if (player isKindOf "B_Pilot_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		//["muzzle_snds_acp ",1],
 		//["optic_Aco_smg ",1],
@@ -1569,6 +1576,7 @@ if (player isKindOf "B_officer_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_anprc152",1],
+	["ItemcTab",1],
 	//-----------Anbauten Pri.-------- //
 		//["muzzle_snds_acp ",1],
 		//["optic_Aco_smg ",1],
@@ -1755,6 +1763,7 @@ if (player isKindOf "B_engineer_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["muzzle_snds_acp ",1],
 		["optic_Aco_smg ",1],
@@ -1929,6 +1938,7 @@ if (player isKindOf "B_soldier_exp_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["FHQ_acc_LLM01L",1],
 		["FHQ_acc_LLM01F",1],
@@ -2116,6 +2126,7 @@ if (player isKindOf "B_crew_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["muzzle_snds_acp ",1],
 		["optic_Aco_smg ",1],
@@ -2299,6 +2310,7 @@ if (player isKindOf "B_Soldier_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["FHQ_acc_LLM01L",1],
 		["FHQ_acc_LLM01F",1],
@@ -2490,6 +2502,7 @@ if (player isKindOf "B_Soldier_SL_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_anprc152",1],
+	["ItemcTab",1],
 	//-----------Anbauten Pri.-------- //
 		["FHQ_acc_LLM01L",1],
 		["FHQ_acc_LLM01F",1],
@@ -2686,6 +2699,7 @@ if (player isKindOf "B_soldier_M_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_rf7800str",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["muzzle_mas_snds_sm",1],
 		["muzzle_mas_snds_smc",1],
@@ -2872,6 +2886,7 @@ if (player isKindOf "B_spotter_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_anprc152",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["muzzle_mas_snds_sm",1],
 		["muzzle_mas_snds_smc",1],
@@ -3058,6 +3073,7 @@ if (player isKindOf "B_sniper_F") then {
 	[
 	//-----------Funke-------- //
 	["tf_anprc152",1],
+	["ItemAndroid",1],
 	//-----------Anbauten Pri.-------- //
 		["muzzle_mas_snds_sh",1],
 		["optic_DMS",1],

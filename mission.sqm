@@ -748,7 +748,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="alpha_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap"";";
 					description="Truppführer";
 					syncId=11;
 					synchronizations[]={21};
@@ -765,7 +765,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="alpha_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Funker";
 				};
 				class Item2
@@ -780,7 +780,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Sanitäter";
 				};
 				class Item3
@@ -795,7 +795,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""NVGoggles""; this unassignItem ""ItemRadio""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""NVGoggles""; this unassignItem ""ItemRadio""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Panzerabwehr";
 				};
 				class Item4
@@ -810,7 +810,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Sprengstoffexperte";
 				};
 				class Item5
@@ -825,7 +825,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Gruppenscharfschütze";
 				};
 			};
@@ -849,7 +849,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="bravo_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap"";";
 					description="Truppführer";
 					syncId=12;
 					synchronizations[]={21};
@@ -866,7 +866,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="bravo_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Funker";
 				};
 				class Item2
@@ -881,7 +881,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="bravo_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Sanitäter";
 				};
 				class Item3
@@ -896,7 +896,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="bravo_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Panzerabwehr";
 				};
 				class Item4
@@ -911,7 +911,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="bravo_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="MG-Schütze";
 				};
 				class Item5
@@ -926,7 +926,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="bravo_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Grenadier";
 				};
 			};
@@ -950,7 +950,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="charlie_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap"";";
 					description="Truppführer";
 					syncId=13;
 					synchronizations[]={21};
@@ -967,7 +967,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="charlie_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Funker";
 				};
 				class Item2
@@ -982,7 +982,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Sanitäter";
 				};
 				class Item3
@@ -997,7 +997,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Luftabwehr";
 				};
 				class Item4
@@ -1012,7 +1012,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Sprengstoffexperte";
 				};
 				class Item5
@@ -1027,7 +1027,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Grenadier";
 				};
 			};
@@ -1051,7 +1051,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="echo_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_Milcap"";";
 					description="Truppführer";
 					syncId=14;
 					synchronizations[]={21};
@@ -1068,7 +1068,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="echo_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Funker";
 				};
 				class Item2
@@ -1083,7 +1083,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Sanitäter";
 				};
 				class Item3
@@ -1098,7 +1098,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Luftabwehr";
 				};
 				class Item4
@@ -1113,7 +1113,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="MG-Schütze";
 				};
 				class Item5
@@ -1128,7 +1128,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Gruppenscharfschütze";
 				};
 			};
@@ -1152,7 +1152,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="hotel_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Hotel""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Hotel""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Scharfschütze";
 					syncId=15;
 					synchronizations[]={21};
@@ -1169,7 +1169,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="hotel_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Hotel""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Hotel""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Spotter";
 				};
 			};
@@ -1193,7 +1193,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="foxtrot_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B"";";
 					description="Kommandant";
 					syncId=16;
 					synchronizations[]={21};
@@ -1210,7 +1210,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="foxtrot_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B"";";
 					description="Richtschütze";
 				};
 				class Item2
@@ -1225,7 +1225,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="foxtrot_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B"";";
 					description="Fahrer";
 				};
 			};
@@ -1249,7 +1249,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="golf_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B"";";
 					description="Kommandant";
 					syncId=17;
 					synchronizations[]={21};
@@ -1266,7 +1266,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="golf_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B"";";
 					description="Richtschütze";
 				};
 				class Item2
@@ -1281,7 +1281,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="golf_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform_light""; this addHeadgear ""H_HelmetCrew_B"";";
 					description="Fahrer";
 				};
 			};
@@ -1305,7 +1305,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="oscar_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_PilotHelmetHeli_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_PilotHelmetHeli_B"";";
 					description="Pilot";
 					syncId=18;
 					synchronizations[]={21};
@@ -1322,7 +1322,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="oscar_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_PilotHelmetHeli_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_PilotHelmetHeli_B"";";
 					description="Co-Pilot";
 				};
 				class Item2
@@ -1337,7 +1337,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="oscar_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_CrewHelmetHeli_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_CrewHelmetHeli_B"";";
 					description="Lademeister";
 				};
 				class Item3
@@ -1352,7 +1352,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="oscar_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_CrewHelmetHeli_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_CrewHelmetHeli_B"";";
 					description="Türschütze";
 				};
 				class Item4
@@ -1367,7 +1367,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="oscar_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_CrewHelmetHeli_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""U_B_HeliPilotCoveralls""; this addHeadgear ""H_CrewHelmetHeli_B"";";
 					description="Türschütze";
 				};
 			};
@@ -1391,7 +1391,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="victor_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Pionier";
 					syncId=19;
 					synchronizations[]={21};
@@ -1408,7 +1408,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="victor_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Pionier";
 				};
 				class Item2
@@ -1423,7 +1423,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="victor_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Pionier";
 				};
 				class Item3
@@ -1438,7 +1438,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="victor_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemAndroid""; this assignItem  ""ItemAndroid""; this AddUniform ""ARC_GER_Tropentarn_Uniform""; this addHeadGear ""ARC_GER_Tropentarn_booniehat"";";
 					description="Pionier";
 				};
 			};
@@ -1462,7 +1462,7 @@ class Mission
 					rank="COLONEL";
 					skill=0.60000002;
 					text="zulu_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""H_Beret_Colonel""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""H_Beret_Colonel"";";
 					description="Kompanieführer";
 					syncId=20;
 					synchronizations[]={21};
@@ -1479,7 +1479,7 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="zulu_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""H_Beret_02""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; this unassignItem ""NVGoggles""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""ARC_GER_Tropentarn_Uniform_vest""; this addHeadGear ""H_Beret_02"";";
 					description="Zugführer";
 				};
 			};
@@ -1645,7 +1645,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="november_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_Pilot_Coveralls""; this addHeadgear ""H_PilotHelmetFighter_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_Pilot_Coveralls""; this addHeadgear ""H_PilotHelmetFighter_B"";";
 					description="Pilot";
 					syncId=22;
 					synchronizations[]={21};
@@ -1662,7 +1662,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="november_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_Pilot_Coveralls""; this addHeadgear ""H_PilotHelmetFighter_B""; this addEventHandler [""killed"", {_this execVM ""scripts\gearsaver\capture.sqf"";_this execVM ""scripts\gearsaver\weaponrespawn.sqf"";}];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; removeAllWeapons this; removeVest this; removeBackpack this; this unassignItem ""ItemRadio""; removeAllItems this; this AddItem ""ItemcTab""; this assignItem  ""ItemcTab""; this AddUniform ""U_B_Pilot_Coveralls""; this addHeadgear ""H_PilotHelmetFighter_B"";";
 					description="Co-Pilot";
 				};
 			};
@@ -7082,7 +7082,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=3;
+		items=2;
 		class Item0
 		{
 			position[]={26814.768,22.431343,24623.168};
@@ -7095,14 +7095,6 @@ class Mission
 			name="respawn_west";
 			type="Empty";
 			colorName="ColorPink";
-		};
-		class Item2
-		{
-			position[]={27367.182,31.661394,24937.742};
-			name="descriptionmarker";
-			text="Nukepos is here!";
-			type="hd_objective";
-			colorName="ColorRed";
 		};
 	};
 	class Sensors
@@ -7191,7 +7183,7 @@ class Mission
 			activationBy="WEST";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="null=[]execVM ""scripts\waffenausgabe.sqf"";";
+			expActiv="_handle = createdialog ""dialog_waffenausgabe"";";
 			class Effects
 			{
 			};
