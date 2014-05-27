@@ -10,7 +10,6 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
-if (isDedicated) exitWith {};
 class dialog_waffenausgabe
 {
 	idd=-1;
