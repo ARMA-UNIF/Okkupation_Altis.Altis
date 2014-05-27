@@ -50,11 +50,14 @@ titleCut ["", "BLACK FADED", 12];
 _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\zlt_fieldrepair.sqf";
 [] execVM "scripts\real_weather.sqf";
+[] execVM "eos\OpenMe.sqf";
+
+if !(isDedicated) then {
 [] execVM "scripts\waffenbox.sqf";
 [] execVM "scripts\waffen_restrictions.sqf";
 [] execVM "scripts\werfer_restrictions.sqf";
-[] execVM "eos\OpenMe.sqf";
 [] execVM "scripts\briefing.sqf";
+};
 
 //Tragen
 [] execVM "scripts\R3F_ARTY_AND_LOG\init.sqf";
@@ -84,7 +87,7 @@ if (isDedicated) then {
 missionMarker = ["M001", "M002" ];
 initMission = 0;
 activeMission =0;
-mission_Sign setObjectTextureGlobal [0, "pictures\mission\0.jpg"]
+mission_Sign setObjectTextureGlobal [0, "pictures\mission\0.jpg"];
 };
 
 // Task Force Radio
