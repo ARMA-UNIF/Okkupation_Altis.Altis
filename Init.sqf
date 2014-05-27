@@ -25,7 +25,7 @@ titleCut ["", "BLACK FADED", 12];
 {
 	waitUntil{!(isNil "BIS_fnc_init")};
 	["video\intro.ogv", ""] call BIS_fnc_quotations;
-	sleep 12;
+	sleep 24;
 	waitUntil {BIS_fnc_quotations_playing || !(isNil "BIS_fnc_quotations_skip")};
 	player enableSimulation true;
 	"dynamicBlur" ppEffectEnable true;
@@ -37,7 +37,7 @@ titleCut ["", "BLACK FADED", 12];
 	[] execVM "scripts\osd.sqf";
 	waitUntil {BIS_fnc_quotations_playing || !(isNil "BIS_fnc_quotations_skip")};
 	[1, 1] spawn BIS_fnc_cinemaBorder;
-	sleep 15;
+	sleep 12;
 	["<t size='0.7'>" + "Missions Design by<br/>" + "</t>" + "<t size='0.5'>" + "Team UNIF<br/>" + "www.Arma-Unif.de<br/>" + "</t>",-0.5,0.7,3,-1,0,3011] call bis_fnc_dynamicText;
 	sleep 10;
 	["<t size='0.7'>" + "Intro by<br/>" + "</t>" + "<t size='0.5'>" + "Continuum" + "</t>",-0.5,0.1,3,-1,0,3011] call bis_fnc_dynamicText;

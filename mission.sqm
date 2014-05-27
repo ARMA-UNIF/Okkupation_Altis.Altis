@@ -1919,6 +1919,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Flag_White_F";
 			skill=0.60000002;
+			init="this setFlagTexture ""pictures\unif-flag.paa"";";
 		};
 		class Item17
 		{

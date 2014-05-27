@@ -14,11 +14,11 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 author = "www.Arma-Unif.de";
 onloadname = "Okkupation Altis";
 onloadmission = "UNIF ARMA 3 Hardcore Multiplayer Modus";
-loadscreen = "unif.paa";
+loadscreen = "pictures\unif.paa";
 onLoadMissionTime = 1;
 overviewText = "UNIF ARMA 3 Hardcore Multiplayer Modus";
 //overviewTextLocked = "Mission nicht verfügbar";
-overviewPicture = "unif.paa";
+overviewPicture = "pictures\unif.paa";
 //Respawn
 respawnButton = 0;
 respawn = 3;
