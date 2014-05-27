@@ -1,35 +1,62 @@
-class test_dialog
+class dialog_waffenausgabe
 {
 	idd=-1;
 	movingenable=false;
 	
 	class controls 
 	{
-	////////////////////////////////////////////////////////
-// GUI EDITOR OUTPUT START (by Continuum, v1.063, #Kuwoxe)
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT START (by Continuum, v1.063, #Symita)
 ////////////////////////////////////////////////////////
 
-class 000_frame: RscFrame
+class ausgabe_frame: RscFrame
 {
-	idc = 1800;
-	text = "frame"; //--- ToDo: Localize;
-	x = 0.304062 * safezoneW + safezoneX;
-	y = 0.247 * safezoneH + safezoneY;
-	w = 0.391875 * safezoneW;
-	h = 0.506 * safezoneH;
+	idc = 1801;
+	x = 0.345312 * safezoneW + safezoneX;
+	y = 0.313 * safezoneH + safezoneY;
+	w = 0.309375 * safezoneW;
+	h = 0.374 * safezoneH;
 };
-class 000_text: RscText
+class ausgabe_bild: RscPicture
+{
+	idc = 1200;
+	text = "#(argb,8,8,3)color(1,1,1,1)";
+	x = 0.613437 * safezoneW + safezoneX;
+	y = 0.324 * safezoneH + safezoneY;
+	w = 0.0360937 * safezoneW;
+	h = 0.055 * safezoneH;
+};
+class ausgabe_button: RscButtonMenuOK
+{
+	text = "Salutieren"; //--- ToDo: Localize;
+	x = 0.469062 * safezoneW + safezoneX;
+	y = 0.643 * safezoneH + safezoneY;
+	w = 0.0567187 * safezoneW;
+	h = 0.022 * safezoneH;
+};
+class ausgabe_ueberschrift: RscText
 {
 	idc = 1000;
-	text = "Schwall Gummiball"; //--- ToDo: Localize;
-	x = 0.345312 * safezoneW + safezoneX;
-	y = 0.291 * safezoneH + safezoneY;
-	w = 0.0979687 * safezoneW;
-	h = 0.077 * safezoneH;
+	text = "Ãœberschrift"; //--- ToDo: Localize;
+	x = 0.386562 * safezoneW + safezoneX;
+	y = 0.324 * safezoneH + safezoneY;
+	w = 0.221719 * safezoneW;
+	h = 0.055 * safezoneH;
+};
+class ausgabe_text: RscText
+{
+	idc = 1001;
+	text = "Text"; //--- ToDo: Localize;
+	x = 0.386562 * safezoneW + safezoneX;
+	y = 0.39 * safezoneH + safezoneY;
+	w = 0.221719 * safezoneW;
+	h = 0.242 * safezoneH;
 };
 ////////////////////////////////////////////////////////
 // GUI EDITOR OUTPUT END
 ////////////////////////////////////////////////////////
+
+
 
 	
 	
