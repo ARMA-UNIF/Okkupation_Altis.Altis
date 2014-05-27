@@ -25,7 +25,7 @@ titleCut ["", "BLACK FADED", 12];
 {
 	waitUntil{!(isNil "BIS_fnc_init")};
 	["video\intro.ogv", ""] call BIS_fnc_quotations;
-	sleep 24;
+	sleep 12;
 	waitUntil {BIS_fnc_quotations_playing || !(isNil "BIS_fnc_quotations_skip")};
 	player enableSimulation true;
 	"dynamicBlur" ppEffectEnable true;
