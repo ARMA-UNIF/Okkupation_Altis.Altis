@@ -11,8 +11,7 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
 if (isDedicated) exitWith {};
-if (!isDedicated) then //Server
-//if (true) then 
+if (!isDedicated) then 
 {
 	waitUntil {(player == player)&&(alive player)};
 };
