@@ -4673,13 +4673,14 @@ class Mission
 		};
 		class Item293
 		{
-			position[]={26821.699,1.1066999,24618.301};
-			azimut=135.81599;
+			position[]={26821.037,22.593273,24619.928};
+			azimut=315;
 			offsetY=1.1066999;
 			id=362;
 			side="EMPTY";
-			vehicle="CamoNet_BLUFOR_open_Curator_F";
+			vehicle="CamoNet_BLUFOR_F";
 			skill=0.60000002;
+			init="this allowdamage false;";
 		};
 		class Item294
 		{
@@ -7592,7 +7593,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=4;
+		items=3;
 		class Item0
 		{
 			position[]={26814.768,22.431343,24623.168};
@@ -7613,16 +7614,6 @@ class Mission
 			text="Nukepos is here!";
 			type="hd_objective";
 			colorName="ColorRed";
-		};
-		class Item3
-		{
-			position[]={500,0.02348836,500};
-			name="pvpfw_monitor_marker_info";
-			text="Server: fps 30.7 | players 0 | objects 692";
-			type="mil_box";
-			colorName="colorBlack";
-			a=0.5;
-			b=0.5;
 		};
 	};
 	class Sensors
@@ -7705,7 +7696,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={26826.063,22.685715,24617.654};
+			position[]={26826.895,22.708408,24617.059};
 			a=2;
 			b=2;
 			activationBy="WEST";

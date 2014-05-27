@@ -3178,7 +3178,7 @@ if (player isKindOf "B_sniper_F") then {
 // Ammobox erstellen
 _box = _boxType createVehicleLocal (getMarkerPos _marker);
 sleep 2;
-_box setPos [26824.684,24617.508,1.5];
+_box setPos [26824.684,24617.508,1.2];
 sleep 1;
 _box setDir 135;
 _box allowDamage false;

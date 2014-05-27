@@ -1,3 +1,15 @@
+/*
+Creative Commons Lizenzvertrag
+Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer
+Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz.
+http://creativecommons.org/licenses/by-nc-nd/4.0/deed.de
+
+Creative Commons License
+Okkupation Altis by http://www.Arma-Unif.de  licensed under a
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+*/
 // Control types
 #define CT_STATIC           0
 #define CT_BUTTON           1
@@ -106,9 +118,9 @@ class RscText
     colorBackground[] = {0,0,0,0};
     colorText[] = {1,1,1,1};
     text = "";
-    shadow = 0;
+    shadow = 1;
     font = "PuristaLight";
-    SizeEx = 0.02300;
+    SizeEx = 0.044;
     fixedWidth = 0;
     x = 0;
     y = 0;
@@ -188,7 +200,7 @@ class Box
     idc = -1;
     style = ST_CENTER;
     shadow = 2;
-    colorBackground[] = { 0.2,0.9,0.5, 0.9};
+    colorBackground[] = { 0.23,0.23,0.23, 0.6};
     colorText[] = {1,1,1,0.9};
     font = "PuristaLight";
     sizeEx = 0.03;
