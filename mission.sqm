@@ -273,7 +273,7 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					syncId=0;
-					synchronizations[]={23};
+					synchronizations[]={23,9,10};
 				};
 			};
 		};
@@ -703,7 +703,7 @@ class Mission
 					text="zeus1";
 					description="Spielleiter";
 					syncId=9;
-					synchronizations[]={4};
+					synchronizations[]={4,0};
 				};
 			};
 		};
@@ -725,7 +725,7 @@ class Mission
 					text="zeus2";
 					description="Spielleiter";
 					syncId=10;
-					synchronizations[]={8};
+					synchronizations[]={8,0};
 				};
 			};
 		};
