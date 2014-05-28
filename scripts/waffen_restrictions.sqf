@@ -134,6 +134,7 @@ while {true} do
 		{
 		nil
 		};
+		// ----- Klasse "Panzerbesatzung" ----
 		if ( !(primaryWeapon player in _panzerWaffen ) && (player isKindOf "B_crew_F")) then
 		{
 		player removeWeapon (primaryWeapon player)
@@ -142,6 +143,7 @@ while {true} do
 		{
 		nil
 		};
+		// ----- Klasse "Sprengstoffexperte" ----
 		if ( !(primaryWeapon player in _funkerWaffen ) && (player isKindOf "B_Soldier_F")) then
 		{
 		player removeWeapon (primaryWeapon player)
@@ -150,7 +152,8 @@ while {true} do
 		{
 		nil
 		};
-		if ( !(primaryWeapon player in _gruppenschuetzeWaffen ) && (player isKindOf "B_Soldier_SL_F")) then
+		// ----- Klasse "Truppführer" ----
+		if ( !(primaryWeapon player in _truppWaffen ) && (player isKindOf "B_Soldier_SL_F")) then
 		{
 		player removeWeapon (primaryWeapon player)
 		}
@@ -158,7 +161,8 @@ while {true} do
 		{
 		nil
 		};
-		if ( !(primaryWeapon player in _truppWaffen ) && (player isKindOf "B_soldier_M_F")) then
+		// ----- Klasse "Gruppenscharfschütze" ----
+		if ( !(primaryWeapon player in _gruppenschuetzeWaffen ) && (player isKindOf "B_soldier_M_F")) then
 		{
 		player removeWeapon (primaryWeapon player)
 		}
@@ -166,6 +170,7 @@ while {true} do
 		{
 		nil
 		};
+		// ----- Klasse "Spotter" ----
 		if ( !(primaryWeapon player in _spotterWaffen ) && (player isKindOf "B_spotter_F")) then
 		{
 		player removeWeapon (primaryWeapon player)
@@ -174,6 +179,7 @@ while {true} do
 		{
 		nil
 		};
+		// ----- Klasse "Scharfschütze" ----
 		if ( !(primaryWeapon player in _sniperWaffen ) && (player isKindOf "B_sniper_F")) then
 		{
 		player removeWeapon (primaryWeapon player)
