@@ -10,7 +10,7 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
-if (isDedicated) exitWith {}; 
+if (isDedicated) exitWith {};
 
 waitUntil { alive player };
 
@@ -20,23 +20,22 @@ player addEventHandler ["KILLED", {
     waitUntil { alive player };
     waitUntil { (count (weapons player)) > 0 };
 	player unassignItem "NVGoggles";
-	player unassignItem "itemgps";
-	player unassignItem "itemRadio";
-	removeAllWeapons player;	
-	removeHeadgear player;	
+	player unassignItem "ItemGps";
+	player unassignItem "ItemRadio";
+	removeAllWeapons player;
+	removeHeadgear player;
 	removeBackpack player;
 	removeUniform player;
 	removeVest player;
 	removeGoggles player;
-	removeallitems player; 
+	removeAllItems player;
 	sleep 1;
-	player additem "ItemCompass";
-	player assignitem "itemcompass";
-	player additem "itemmap";
-	player assignitem "itemmap";
-	player additem "itemwatch";
-	player assignitem "itemwatch";
-	player AddUniform "ARC_GER_Tropentarn_Uniform"; 
-	
+	player AddUniform "ARC_GER_Tropentarn_Uniform";
+	player addItem "ItemCompass";
+	player assignItem "ItemCompass";
+	player addItem "ItemMap";
+	player assignItem "ItemMap";
+	player addItem "ItemWatch";
+	player assignItem "ItemWatch";
   };
 }];
