@@ -1492,7 +1492,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={26665.744,13.201365,24812};
+					position[]={26662.266,12.526682,24809.898};
 					id=59;
 					side="LOGIC";
 					vehicle="RAV_Lifter_A3";
