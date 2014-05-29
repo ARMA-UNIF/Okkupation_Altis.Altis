@@ -14,7 +14,7 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 // MP settings
 if (!isServer && isNull player) then {isJIP=true;} else {isJIP=false;};
 if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
-if (!isMultiplayer) then { enableSaving [true, true]; } else { enableSaving [true, true]; };
+//if (!isMultiplayer) then { enableSaving [true, true]; } else { enableSaving [true, true]; };
 enableSaving [false, false];
 
 // Intro
@@ -34,9 +34,10 @@ titleCut ["", "BLACK FADED", 12];
 	"dynamicBlur" ppEffectAdjust [0.0];
 	"dynamicBlur" ppEffectCommit 5;
 	titleCut ["", "BLACK IN", 6];
-	[] execVM "scripts\osd.sqf";
 	waitUntil {BIS_fnc_quotations_playing || !(isNil "BIS_fnc_quotations_skip")};
 	[1, 1] spawn BIS_fnc_cinemaBorder;
+	sleep 3;
+	[] execVM "scripts\osd.sqf";
 	sleep 12;
 	["<t size='0.7'>" + "Missions Design by<br/>" + "</t>" + "<t size='0.5'>" + "Team UNIF<br/>" + "www.Arma-Unif.de<br/>" + "</t>",-0.5,0.7,3,-1,0,3011] call bis_fnc_dynamicText;
 	sleep 10;

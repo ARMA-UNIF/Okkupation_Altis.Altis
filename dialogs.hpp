@@ -51,12 +51,12 @@ class ausgabe_bild: RscPicture
 class ausgabe_button: RscButton
 {
 	idc = 1600;
-	text = "Salutieren"; //--- ToDo: Localize;
+	text = "Verstanden"; //--- ToDo: Localize;
 	x = 0.469062 * safezoneW + safezoneX;
 	y = 0.621 * safezoneH + safezoneY;
 	w = 0.061875 * safezoneW;
 	h = 0.044 * safezoneH;
-	action = "closeDialog 0;_nil=[]ExecVM ""scripts\salutieren.sqf""";
+	action = "closeDialog 0;";
 };
 class ausgabe_text: RscText
 {

@@ -47,7 +47,7 @@
 	_timesync = 60;
 
 	// Mission starting date is 25/09/2013 at 12:00
-    _startingdate = [2035, 07, 06, 07, 30];
+    _startingdate = [2014, 07, 06, 07, 30];
 
     if (G_DEBUG) then { _startingdate = [2014, 07, 01, 12, 00]; };
     //if (G_DEBUG) then { _startingdate = [2014, 10, 30, 1, 00]; };

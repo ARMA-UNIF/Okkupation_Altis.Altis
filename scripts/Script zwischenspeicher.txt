@@ -2,3 +2,11 @@ this setObjectTexture [0, "pictures\mission\M001.jpg"] // 512x512 or 1024x1024
 
 "pictures\missionen\" + activeMission + ".jpg"
 
+0 = [] spawn {
+                unit1 sidechat "Coolguy One , this is Coolguy Base. Any activity in the village?";
+                sleep 5;
+                unit2 sidechat "Coolguy Base, this is Coolguy One. Everything's cool in the village, over.";
+};
+
+_handle = player execVM "test.sqf"; 
+waitUntil {scriptDone _handle};
