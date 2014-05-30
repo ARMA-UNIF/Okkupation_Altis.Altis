@@ -7,6 +7,12 @@ Arma 3 Hardcore MP Mode
 //Okkupation Altis Chancelog:
 //-------------------------------
 
+Ver. 0.3b
+- Grundgestell des Dialog Systems eingebaut und als Infoquelle für Spieler klassifiziert
+- Respawn Bugfix
+- Reduzierung der Init Zeile des Spielers
+- Anpassung Intro Länge
+
 Ver. 0.3a
 - Klassen und Ausrüstung teilweise bugfix
 - Respawn eingebaut und getestet

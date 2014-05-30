@@ -1,0 +1,132 @@
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.PilotSpec'.
+13:27:02 Warning Message: No entry '.showHeadPhones'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.predictTurnSimul'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.predictTurnPlan'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.minFireTime'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.enableWatch'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.enableRadio'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.transportFuel'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.transportRepair'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.transportAmmo'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.transportMaxBackpacks'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.lockDetectionSystem'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.incomingMissileDetectionSystem'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.allowTabLock'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.showAllTargets'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.alwaysTarget'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.irTarget'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.irScanToEyeFactor'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.irScanRangeMin'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.irScanRangeMax'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.irScanGround'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.nightVision'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.laserScanner'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.laserTarget'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.nvTarget'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.artilleryTarget'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.artilleryScanner'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.commanderCanSee'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.driverCanSee'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.gunnerCanSee'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.radarType'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.attendant'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.engineer'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.preferRoads'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.unitInfoType'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.hideUnitInfo'.
+13:27:02 Warning Message: '/' is not a value
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundEngine'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundEnviron'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundDammage'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundGetIn'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundGetOut'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundServo'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundEngineOnInt'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundEngineOffInt'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundEngineOnExt'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundEngineOffExt'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundLocked'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundIncommingMissile'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundGearUp'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundGearDown'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundFlapsUp'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundFlapsDown'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundCrashes'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundLandCrashes'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundWaterCrashes'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundWoodCrash'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundBushCrash'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundBuildingCrash'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.soundArmorCrash'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.SoundEnvironExt'.
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.SoundGear'.
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.SoundEquipment'.
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.weapons'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.magazines'.
+13:27:02 Warning Message: Size: '/' not an array
+13:27:02 Warning Message: No entry 'bin\config.bin/CfgVehicles/B_Kitbag_mcamo_Eng.threat'.

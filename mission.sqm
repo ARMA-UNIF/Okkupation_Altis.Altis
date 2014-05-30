@@ -748,7 +748,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="alpha_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Truppführer";
 					syncId=11;
 					synchronizations[]={21};
@@ -765,7 +765,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="alpha_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Funker";
 				};
 				class Item2
@@ -780,7 +780,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Sanitäter";
 				};
 				class Item3
@@ -795,7 +795,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Panzerabwehr";
 				};
 				class Item4
@@ -810,7 +810,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Sprengstoffexperte";
 				};
 				class Item5
@@ -825,7 +825,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="alpha_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Alpha""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Gruppenscharfschütze";
 				};
 			};
@@ -849,7 +849,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="bravo_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Truppführer";
 					syncId=12;
 					synchronizations[]={21};
@@ -866,7 +866,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="bravo_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Funker";
 				};
 				class Item2
@@ -896,7 +896,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="bravo_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Panzerabwehr";
 				};
 				class Item4
@@ -911,7 +911,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="bravo_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="MG-Schütze";
 				};
 				class Item5
@@ -926,7 +926,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="bravo_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Bravo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Grenadier";
 				};
 			};
@@ -950,7 +950,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="charlie_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Truppführer";
 					syncId=13;
 					synchronizations[]={21};
@@ -967,7 +967,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="charlie_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Funker";
 				};
 				class Item2
@@ -982,7 +982,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Sanitäter";
 				};
 				class Item3
@@ -997,7 +997,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Luftabwehr";
 				};
 				class Item4
@@ -1012,7 +1012,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Sprengstoffexperte";
 				};
 				class Item5
@@ -1027,7 +1027,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="charlie_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Charlie""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Grenadier";
 				};
 			};
@@ -1051,7 +1051,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="echo_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Truppführer";
 					syncId=14;
 					synchronizations[]={21};
@@ -1068,7 +1068,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="echo_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Funker";
 				};
 				class Item2
@@ -1083,7 +1083,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Sanitäter";
 				};
 				class Item3
@@ -1098,7 +1098,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Luftabwehr";
 				};
 				class Item4
@@ -1113,7 +1113,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="MG-Schütze";
 				};
 				class Item5
@@ -1128,7 +1128,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="echo_6";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Echo""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Gruppenscharfschütze";
 				};
 			};
@@ -1152,7 +1152,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="hotel_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Hotel""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Hotel""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Scharfschütze";
 					syncId=15;
 					synchronizations[]={21};
@@ -1193,7 +1193,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="foxtrot_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Kommandant";
 					syncId=16;
 					synchronizations[]={21};
@@ -1210,7 +1210,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="foxtrot_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Richtschütze";
 				};
 				class Item2
@@ -1225,7 +1225,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="foxtrot_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Foxtrot""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Fahrer";
 				};
 			};
@@ -1266,7 +1266,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="golf_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Richtschütze";
 				};
 				class Item2
@@ -1281,7 +1281,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="golf_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Golf""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Fahrer";
 				};
 			};
@@ -1305,7 +1305,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="oscar_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Pilot";
 					syncId=18;
 					synchronizations[]={21};
@@ -1322,7 +1322,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="oscar_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Co-Pilot";
 				};
 				class Item2
@@ -1337,7 +1337,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="oscar_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Lademeister";
 				};
 				class Item3
@@ -1352,7 +1352,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="oscar_4";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Türschütze";
 				};
 				class Item4
@@ -1367,7 +1367,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="oscar_5";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Oscar""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Türschütze";
 				};
 			};
@@ -1391,7 +1391,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="victor_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Pionier";
 					syncId=19;
 					synchronizations[]={21};
@@ -1408,7 +1408,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="victor_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Pionier";
 				};
 				class Item2
@@ -1423,7 +1423,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="victor_3";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Victor""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Pionier";
 				};
 				class Item3
@@ -1462,7 +1462,7 @@ class Mission
 					rank="COLONEL";
 					skill=0.60000002;
 					text="zulu_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Kompanieführer";
 					syncId=20;
 					synchronizations[]={21};
@@ -1479,7 +1479,7 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="zulu_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""Zulu""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Zugführer";
 				};
 			};
@@ -1645,7 +1645,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="november_1";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Pilot";
 					syncId=22;
 					synchronizations[]={21};
@@ -1662,7 +1662,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="november_2";
-					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; this addAction [""<t color=""""#895e1a"""">"" + ""Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
+					init="null = this execVM ""scripts\waffenbox.sqf""; this setGroupId [""November""]; Act1 = this addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 					description="Co-Pilot";
 				};
 			};
@@ -7197,7 +7197,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expActiv="player removeAction Act1;";
-			expDesactiv="Act1 = player addAction [""<t color=""""#895e1a"""">"" + (""Informationsportal"") ,""scripts\infocenter\diaStart.sqf""];";
+			expDesactiv="Act1 = player addAction [""<t color='#895e1a'> Informationsportal"",""scripts\infocenter\diaStart.sqf""];";
 			class Effects
 			{
 			};
