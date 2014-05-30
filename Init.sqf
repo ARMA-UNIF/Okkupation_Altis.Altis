@@ -58,6 +58,14 @@ _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\briefing.sqf";
 [] execVM "scripts\respawn.sqf";
 
+//////////////////////////////////////////////////////////////////////////////////////////
+{
+  if (side _x == civilian) then {
+KilledUnit = _x addMPeventhandler ["killed", {nul = _this execVM "civkill.sqf"}];
+};
+} forEach allUnits;
+//////////////////////////////////////////////////////////////////////////////////////////
+
 //Tragen
 [] execVM "scripts\R3F_ARTY_AND_LOG\init.sqf";
 
