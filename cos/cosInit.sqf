@@ -16,7 +16,7 @@ if (isnil "SERVER") then {Hint "You must ADD a object named SERVER";Player Sidec
 if (isServer) then {
 IF (!isnil ("COScomplete")) then {Hint "Check your call. COS was called twice!";}else{
 
-COS_distance=500;//Set spawn distance
+COS_distance=400;//Set spawn distance
 _aerielActivation=true;// Set if flying units can activate civilian Zones
 
 blackListTowns = ["sagonisi"];// Remove towns from COS
@@ -32,7 +32,7 @@ showTownLabel = true;// Show town information when entering COS zones
 debugCOS=false;// Show spawned units on the map
 
 COSpedestrians=true; //Spawn pedestrians
-COScars=true;// Spawn Cars
+COScars=false;// Spawn Cars
 COSparked=true;// Spawn parked cars
 
 // Types of units that will be spawned as civilians.
@@ -81,33 +81,33 @@ if (({_name==_x} count blackListTowns)>0 OR (_name == "")) then {}else{
 _randomisation=10;
 	if (_houses <= 10) 
 		then {
-	_civilians=10+ round(random _randomisation);// Civilians spawned
+	_civilians=5+ round(random _randomisation);// Civilians spawned
 	_vehicles=0;// Moving Vehicles Spawned
 	_parked=1;// Parked Vehicles Spawned
 			};		
  	if (_houses <= 30 and _houses > _randomisation) 
 		then {
-	_civilians=20+ round(random _randomisation);// Civilians spawned
+	_civilians=10+ round(random _randomisation);// Civilians spawned
 	_vehicles=2;// Moving Vehicles Spawned
 	_parked=2;// Parked Vehicles Spawned
 			};
 			
  	if (_houses <= 70 and _houses > 30) 
 		then {
-	_civilians=25+ round(random _randomisation);// Civilians spawned
+	_civilians=12+ round(random _randomisation);// Civilians spawned
 	_vehicles=4;// Moving Vehicles Spawned
 	_parked=2;// Parked Vehicles Spawned
 			};
 			
  	if (_houses <= 140 and _houses > 70) 
 		then {
-	_civilians=30+ round(random _randomisation);// Civilians spawned
+	_civilians=15+ round(random _randomisation);// Civilians spawned
 	_vehicles=5;// Moving Vehicles Spawned
 	_parked=3;// Parked Vehicles Spawned
 			};
  	if (_houses > 140) 
 		then {
-	_civilians=40+ round(random _randomisation);// Civilians spawned
+	_civilians=20+ round(random _randomisation);// Civilians spawned
 	_vehicles=5;// Moving Vehicles Spawned
 	_parked=3;// Parked Vehicles Spawned
 			};

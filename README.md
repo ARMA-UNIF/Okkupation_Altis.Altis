@@ -7,6 +7,10 @@ Arma 3 Hardcore MP Mode
 //Okkupation Altis Chancelog:
 //-------------------------------
 
+Ver. 0.3b1
+- COS angepasst
+- Civilian punish script eingekaut (Episch)
+
 Ver. 0.3b
 - Grundgestell des Dialog Systems eingebaut und als Infoquelle für Spieler klassifiziert
 - Respawn Bugfix
