@@ -1718,7 +1718,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={26715.023,20.759697,24587.354};
+					position[]={26754.693,21.224648,24605.875};
 					id=67;
 					side="WEST";
 					vehicle="b_survivor_F";
@@ -7629,7 +7629,7 @@ class Mission
 		{
 			position[]={26728.199,20.152479,24650.801};
 			azimut=309.65701;
-			offsetY=1.1;
+			offsetY=0.89999998;
 			id=656;
 			side="EMPTY";
 			vehicle="Land_Razorwire_F";
