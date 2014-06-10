@@ -12,24 +12,24 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 */
 if (isDedicated) exitWith {};
 
-//Klassendefinition (+ "arifle_mas_mp5sd_ds")
-_maschWaffen = ["LMG_mas_M249_F", "LMG_mas_Mk48_F", "LMG_mas_M249_F_v", "LMG_mas_M249_F_d", "LMG_mas_Mk48_F_v", "LMG_mas_Mk48_F_d", "LMG_mas_M240_F", "LMG_mas_mg3_F"];
-_pabwehrWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d", "arifle_mas_mp5sd_ds"];
-_luabwehrWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d", "arifle_mas_mp5sd_ds"];
-_granatWaffen = ["G36agl", "G36kgl", "arifle_mas_g3_m203", "arifle_mas_hk416_m203", "arifle_mas_hk416_m203_v", "arifle_mas_hk416_m203_d", "arifle_mas_hk416_m203c", "arifle_mas_hk416_m203c_v", "arifle_mas_hk416_m203c_d", "arifle_mas_hk417_m203c","arifle_mas_hk417_m203c_v", "arifle_mas_hk417_m203c_d", "arifle_mas_mp5sd_ds"];
-_saniWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d", "arifle_mas_mp5sd_ds"];
-_heliWaffen = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F", "arifle_mas_mp5", "arifle_mas_mp5_v", "arifle_mas_mp5_d", "arifle_mas_mp5sd", "arifle_mas_mp5sd_ds"];
-_helicrewWaffen  = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F", "arifle_mas_mp5", "arifle_mas_mp5_v", "arifle_mas_mp5_d", "arifle_mas_mp5sd", "arifle_mas_mp5sd_ds"];
+//Klassendefinition (+ "arifle_SDAR_F")
+_maschWaffen = ["BWA3_MG4", "BWA3_MG5", "BWA3_MG5_Tan", "BWA3_G36_LMG"];
+_pabwehrWaffen = ["BWA3_G36", "BWA3_G36K", "BWA3_G28_Assault", "BWA3_G27", "arifle_SDAR_F"];
+_luabwehrWaffen = ["BWA3_G36", "BWA3_G36K", "BWA3_G28_Assault", "BWA3_G27", "arifle_SDAR_F"];
+_granatWaffen = ["BWA3_G36_AG", "BWA3_G36K_AG", "BWA3_G27_AG", "arifle_SDAR_F"];
+_saniWaffen = ["BWA3_G36", "BWA3_G36K", "BWA3_G28_Assault", "BWA3_G27", "arifle_SDAR_F"];
+_heliWaffen = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F"];
+_helicrewWaffen  = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F"];
 _jetWaffen = [""];
 _offizierWaffen = [""];
-_pionierWaffen = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F", "arifle_mas_mp5", "arifle_mas_mp5_v", "arifle_mas_mp5_d", "arifle_mas_mp5sd", "arifle_mas_mp5sd_ds", "arifle_mas_m1014"];
-_sprengWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d", "arifle_mas_mp5sd_ds"];
-_panzerWaffen = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F", "arifle_mas_mp5", "arifle_mas_mp5_v", "arifle_mas_mp5_d", "arifle_mas_mp5sd", "arifle_mas_mp5sd_ds"];
-_funkerWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d", "arifle_mas_mp5sd_ds"];
-_truppWaffen = ["G36C", "arifle_mas_g3", "arifle_mas_hk416", "arifle_mas_hk416_v", "arifle_mas_hk416_d", "arifle_mas_hk416c", "arifle_mas_hk416c_v", "arifle_mas_hk416c_d", "arifle_mas_hk417c","arifle_mas_hk417c_v", "arifle_mas_hk417c_d", "arifle_mas_mp5sd_ds"];
-_gruppenschuetzeWaffen = ["srifle_mas_sr25", "srifle_mas_sr25_v", "srifle_mas_sr25_d", "srifle_mas_hk417", "srifle_mas_hk417_v", "srifle_mas_hk417_d", "arifle_mas_mp5sd_ds"];
-_spotterWaffen = ["srifle_mas_sr25", "srifle_mas_sr25_v", "srifle_mas_sr25_d", "srifle_mas_hk417", "srifle_mas_hk417_v", "srifle_mas_hk417_d", "arifle_mas_mp5sd_ds"];
-_sniperWaffen = ["srifle_LRR_F", "srifle_mas_m24", "srifle_mas_m24_v", "srifle_mas_m24_d", "srifle_mas_m107", "srifle_mas_m107_v", "srifle_mas_m107_d", "arifle_mas_mp5sd_ds"];
+_pionierWaffen = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F"];
+_sprengWaffen = ["BWA3_G36", "BWA3_G36K", "BWA3_G28_Assault", "BWA3_G27", "arifle_SDAR_F"];
+_panzerWaffen = ["SMG_01_F", "SMG_02_F", "hgun_PDW2000_F"];
+_funkerWaffen = ["BWA3_G36", "BWA3_G36K", "BWA3_G28_Assault", "BWA3_G27", "arifle_SDAR_F"];
+_truppWaffen = ["BWA3_G36", "BWA3_G36K", "BWA3_G28_Assault", "BWA3_G27", "arifle_SDAR_F"];
+_gruppenschuetzeWaffen = ["BWA3_G28_Standard", "arifle_SDAR_F"];
+_spotterWaffen = ["BWA3_G28_Standard", "arifle_SDAR_F"];
+_sniperWaffen = ["srifle_LRR_F", "BWA3_G82", "arifle_SDAR_F"];
 sleep 1;
 
 //Schleife
