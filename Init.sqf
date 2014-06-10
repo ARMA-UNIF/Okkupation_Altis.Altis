@@ -74,7 +74,7 @@ Arti_Anzahl = 1;
 Arti_Ziel = 0;
 Arti_Munition = 0;
 Bereitschaft = 1;
-Arti_freigeschaltet = 0;
+Arti_freigeschaltet = 1; //Testweise auf 1. Normalerweise 0
 
 //KI
 [] execVM "scripts\VCOMAI\init.sqf";

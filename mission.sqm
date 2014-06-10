@@ -1898,6 +1898,7 @@ class Mission
 			vehicle="Land_BarGate_F";
 			skill=0.60000002;
 			text="Schranke_2";
+			init="this allowDamage false;";
 		};
 		class Item6
 		{
@@ -2014,6 +2015,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item18
 		{
@@ -2024,6 +2026,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item19
 		{
@@ -3201,6 +3204,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item136
 		{
@@ -3349,6 +3353,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_SponsorS_F";
 			skill=0.60000002;
+			init="this setObjectTextureGlobal [0, ""pictures\artillerie.paa""];";
 		};
 		class Item151
 		{
@@ -3508,6 +3513,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Cargo40_military_green_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item167
 		{
@@ -3578,6 +3584,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Cargo20_military_green_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item174
 		{
@@ -3588,6 +3595,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Cargo20_military_green_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item175
 		{
@@ -3638,6 +3646,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item180
 		{
@@ -3648,6 +3657,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_static_AA_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item181
 		{
@@ -3658,6 +3668,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_static_AA_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item182
 		{
@@ -3668,6 +3679,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_static_AA_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item183
 		{
@@ -3798,6 +3810,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item196
 		{
@@ -3976,6 +3989,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_static_AA_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item214
 		{
@@ -4754,6 +4768,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_static_AA_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item293
 		{
@@ -5237,6 +5252,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Cargo20_military_green_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item342
 		{
@@ -5256,6 +5272,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item344
 		{
@@ -5453,6 +5470,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_static_AA_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item364
 		{
@@ -5842,6 +5860,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item403
 		{
@@ -6828,6 +6847,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pallet_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item502
 		{
@@ -6838,6 +6858,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pallet_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item503
 		{
@@ -6854,6 +6875,7 @@ class Mission
 			position[]={26855.5,23.76717,24613.4};
 			azimut=311.142;
 			offsetY=0.15393101;
+			special="NONE";
 			id=577;
 			side="EMPTY";
 			vehicle="B_Quadbike_01_F";
@@ -6953,21 +6975,23 @@ class Mission
 		{
 			position[]={26871.5,23.39131,24630.699};
 			azimut=41.7066;
-			offsetY=2.3622401;
+			offsetY=2;
 			id=587;
 			side="EMPTY";
 			vehicle="Land_Razorwire_F";
 			skill=0.60000002;
+			init="this setVectorUp [0,0,1] ";
 		};
 		class Item515
 		{
 			position[]={26864.801,22.869062,24636.4};
 			azimut=41.690899;
-			offsetY=2.3230901;
+			offsetY=2.0999999;
 			id=588;
 			side="EMPTY";
 			vehicle="Land_Razorwire_F";
 			skill=0.60000002;
+			init=" this setVectorUp [0,0,1] ";
 		};
 		class Item516
 		{
@@ -7450,6 +7474,7 @@ class Mission
 			vehicle="Land_BarGate_F";
 			skill=0.60000002;
 			text="Schranke_3";
+			init="this allowDamage false;";
 		};
 		class Item564
 		{
@@ -8006,6 +8031,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TableDesk_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item623
 		{
@@ -8016,6 +8042,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MapBoard_altis_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item624
 		{
@@ -8026,6 +8053,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MapBoard_altis_F";
 			skill=0.60000002;
+			init="this enableSimulation false;";
 		};
 		class Item625
 		{
