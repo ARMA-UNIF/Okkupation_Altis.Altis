@@ -50,7 +50,6 @@ titleCut ["", "BLACK FADED", 12];
 // scripts ------------------------------------------------------------------
 _igiLoad = execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\zlt_fieldrepair.sqf";
-[] execVM "scripts\real_weather.sqf";
 [] execVM "eos\OpenMe.sqf";
 [] execVM "scripts\waffenbox.sqf";
 [] execVM "scripts\waffen_restrictions.sqf";
