@@ -19,7 +19,7 @@ publicVariableServer "Arti_Anzahl";
 _xcoord = (Arti_Ziel select 0);
 _ycoord = (Arti_Ziel select 1);
 _zcoord = 180; 
-_timer = 45;
+_timer = 30;
 _Munition = Arti_Munition;
 _Anzahlfeuer = Arti_Anzahl;
 _MunitionZiel = "";
@@ -50,8 +50,14 @@ if ( Arti_Munition == 3) then
 if (Bereitschaft == 0) then {hint "Artillerie noch nicht bereit";}
 else {
 Bereitschaft = 0;
+Arti_Feuer = Arti_Anzahl;
+publicVariable "Arti_Feuer";
 //Simuliertes Arti Feuer in die Pampa -> Wasser
-[] execVM "scripts\artillerie\Arti_Simufire.sqf";
+/*
+_handle = execVM "scripts\artillerie\Arti_Simufire.sqf";
+waitUntil {scriptDone _handle};
+*/
+
 Sleep _timer;
 
 if (_Anzahlfeuer == 1) then {
@@ -81,7 +87,7 @@ _feuer6 = _MunitionZiel createvehicle [_xcoord  + random 25,_ycoord + random 25,
 Sleep 0.1;
 _feuer6 setVelocity [0.2, 0, -0.8];
 };
-Sleep 25;
+Sleep 120;
 Bereitschaft = 1
 };
 

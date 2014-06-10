@@ -13,9 +13,21 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licen
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 */
-_anzahl = Arti_Anzahl;
+
 
 //Simuliertes Arti Feuer in die Pampa -> Wasser
-Arti1 doArtilleryFire [[25925,25522,0], "8Rnd_82mm_Mo_shells", _anzahl];
-//Arti1 doArtilleryFire [[3064,5544,0], "32Rnd_155mm_Mo_shells", _anzahl];
-Arti1 setVehicleAmmo 1;
+
+while {true} do 
+{
+
+if (Arti_Feuer > 0 && {isServer})  then 
+{
+Arti1 doArtilleryFire [[3064,5544,0], "32Rnd_155mm_Mo_shells",1];
+sleep 20;
+Arti_Feuer = Arti_Feuer - 1;
+//Arti1  setVehicleAmmo 1;
+};
+
+};
+//Arti1 doArtilleryFire [[3064,5544,0], "32Rnd_155mm_Mo_shells",1];
+//Arti1 setVehicleAmmo 1;
