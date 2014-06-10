@@ -69,6 +69,8 @@ class CfgDebriefing
 
 //Dialogs
 #include "scripts\infocenter\main.hpp"
+#include "scripts\artillerie\artimain.hpp"
+//#include "scripts\artillerie\artimain_false.hpp"
 
 class CfgFunctions
 {

@@ -1505,7 +1505,7 @@ if (player isKindOf "B_Pilot_F") then {
 		//["B_FieldPack_blk",1]
 		];
 
-};
+ };
 
 // Ausrüstung Klasse "Kompanieführer / Zugführer"
 if (player isKindOf "B_officer_F") then {

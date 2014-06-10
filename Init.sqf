@@ -69,6 +69,13 @@ KilledUnit = _x addMPeventhandler ["killed", {nul = _this execVM "civkill.sqf"}]
 //Tragen
 [] execVM "scripts\R3F_ARTY_AND_LOG\init.sqf";
 
+//Artillerie
+Arti_Anzahl = 1;
+Arti_Ziel = 0;
+Arti_Munition = 0;
+Bereitschaft = 1;
+Arti_freigeschaltet = 0;
+
 //KI
 [] execVM "scripts\VCOMAI\init.sqf";
 player setVariable ["FiredTime", 0];
