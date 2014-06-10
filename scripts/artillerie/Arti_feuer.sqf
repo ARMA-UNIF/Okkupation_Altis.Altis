@@ -1,4 +1,7 @@
 /*
+Last Edit: 10.06.2014
+By: Continuum
+
 Creative Commons Lizenzvertrag
 Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer
 Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz.
@@ -12,6 +15,7 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 */
 
 // Variablen Definition
+publicVariableServer "Arti_Anzahl";
 _xcoord = (Arti_Ziel select 0);
 _ycoord = (Arti_Ziel select 1);
 _zcoord = 180; 
@@ -51,33 +55,33 @@ Bereitschaft = 0;
 Sleep _timer;
 
 if (_Anzahlfeuer == 1) then {
-_feuer1 = _MunitionZiel createvehicle [_xcoord  + random 50,_ycoord + random 50,_zcoord ];
+_feuer1 = _MunitionZiel createvehicle [_xcoord  + random 25,_ycoord + random 25,_zcoord ];
 Sleep 0.1;
 _feuer1 setVelocity [0.2, 0, -0.8];
 };
 if (_Anzahlfeuer == 2) then {
-_feuer2 = _MunitionZiel createvehicle [_xcoord  + random 50,_ycoord + random 50,_zcoord ];
+_feuer2 = _MunitionZiel createvehicle [_xcoord  + random 25,_ycoord + random 25,_zcoord ];
 Sleep 0.1;
 _feuer2 setVelocity [0.2, 0, -0.8];
 Sleep 5;
-_feuer3 = _MunitionZiel createvehicle [_xcoord  + random 50,_ycoord + random 50,_zcoord ];
+_feuer3 = _MunitionZiel createvehicle [_xcoord  + random 25,_ycoord + random 25,_zcoord ];
 Sleep 0.1;
 _feuer3 setVelocity [0.2, 0, -0.8];
 };
 if (_Anzahlfeuer == 3) then {
-_feuer4 = _MunitionZiel createvehicle [_xcoord  + random 50,_ycoord + random 50,_zcoord ];
+_feuer4 = _MunitionZiel createvehicle [_xcoord  + random 25,_ycoord + random 25,_zcoord ];
 Sleep 0.1;
 _feuer4 setVelocity [0.2, 0, -0.8];
 Sleep 5;
-_feuer5 = _MunitionZiel createvehicle [_xcoord  + random 50,_ycoord + random 50,_zcoord ];
+_feuer5 = _MunitionZiel createvehicle [_xcoord  + random 25,_ycoord + random 25,_zcoord ];
 Sleep 0.1;
 _feuer5 setVelocity [0.2, 0, -0.8];
 Sleep 5;
-_feuer6 = _MunitionZiel createvehicle [_xcoord  + random 50,_ycoord + random 50,_zcoord ];
+_feuer6 = _MunitionZiel createvehicle [_xcoord  + random 25,_ycoord + random 25,_zcoord ];
 Sleep 0.1;
 _feuer6 setVelocity [0.2, 0, -0.8];
 };
-Sleep 50;
+Sleep 25;
 Bereitschaft = 1
 };
 

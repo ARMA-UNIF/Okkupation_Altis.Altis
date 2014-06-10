@@ -1,4 +1,7 @@
 /*
+Last Edit: 10.06.2014
+By: Continuum
+
 Creative Commons Lizenzvertrag
 Okkupation Altis von http://www.Arma-Unif.de ist lizenziert unter einer
 Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz.

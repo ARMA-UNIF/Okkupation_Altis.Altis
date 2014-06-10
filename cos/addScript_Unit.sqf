@@ -16,7 +16,7 @@ _unit addMPEventHandler ["MPKilled",{
 _killer = _this select 1;
 if ( isPlayer _killer && { _killer == player } ) then {
 
-			_handle = player execVM "scripts/civkill.sqf"; 
+			_handle = player execVM "scripts\civkill.sqf"; 
 
 		};
 
