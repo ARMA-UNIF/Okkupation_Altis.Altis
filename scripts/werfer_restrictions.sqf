@@ -12,10 +12,10 @@ http://creativecommons.org/licenses/by-nc-nd/4.0/
 */
 if (isDedicated) exitWith {};
 
-_panzerKlasse = ["launch_B_Titan_short_F", "BWA3_RGW90", "BWA3_Pzf3"];
-_panzerKlasseM136 = ["launch_B_Titan_short_F", "BWA3_Pzf3", "BWA3_Fliegerfaust"];
+_panzerKlasse = ["launch_B_Titan_short_F", "BWA3_RGW90", "BWA3_Pzf3", "BWA3_Pzf3_Loaded", "BWA3_Pzf3_Used"];
+_panzerKlasseM136 = ["launch_B_Titan_short_F", "BWA3_Pzf3", "BWA3_Pzf3_Loaded", "BWA3_Pzf3_Used", "BWA3_Fliegerfaust"];
 _luftKlasse = ["BWA3_Fliegerfaust"];
-_verbotenKlasse = ["launch_B_Titan_short_F", "BWA3_RGW90", "BWA3_Pzf3", "BWA3_Fliegerfaust"];
+_verbotenKlasse = ["launch_B_Titan_short_F", "BWA3_RGW90", "BWA3_Pzf3", "BWA3_Pzf3_Loaded", "BWA3_Pzf3_Used" "BWA3_Fliegerfaust"];
 
 while {true} do
 {		//-------------------------------------------------------------------------------------------------------------------------

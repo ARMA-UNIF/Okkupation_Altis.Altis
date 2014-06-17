@@ -223,7 +223,7 @@ if (player isKindOf "B_soldier_AT_F") then {
 		["BWA3_G28_Assault",1],
 		["launch_B_Titan_short_F ",1],
 		["BWA3_RGW90",1],
-		["BWA3_Pzf3",1],
+		["BWA3_Pzf3_Loaded",1],
 
 	//----------Seitenwaffe---------- //
 		["RH_deaglem",1],
