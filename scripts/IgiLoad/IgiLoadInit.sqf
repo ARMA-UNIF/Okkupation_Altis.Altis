@@ -1,16 +1,16 @@
 waituntil {!isnil "bis_fnc_init"};
-if (isDedicated) exitwith {};
+//if (isDedicated) exitwith {};
 //if (isServer) exitwith {};
-waitUntil { !(isNull player) };
+//waitUntil { !(isNull player) };
 waitUntil { time > 0 };
 
 IL_EV_Count = 0;
 IL_Veh_Array = [];
 
-//cutText ["IgiLoad l?dt, bitte warten...","PLAIN Down",2];
+//cutText ["IgiLoad is loading. Please wait...","PLAIN",2];
 sleep (random 30);
 
-//cutText [Format ["IgiLoad init Spieler: %1", Player],"PLAIN Down",2];
+//cutText [Format ["IgiLoad init Player: %1", Player],"PLAIN",2];
 
 _null = [Player] execVM "scripts\IgiLoad\IgiLoad.sqf";
 waitUntil {scriptDone _null};
@@ -26,7 +26,7 @@ sleep (random (IL_Check_Veh_Max - IL_Check_Veh_Min));
 	};
 } forEach (vehicles);
 
-//cutText ["IgiLoad geladen.","PLAIN Down",2];
+//cutText ["IgiLoad loaded. Have fun :)","PLAIN",2];
 
 while {true} do
 {
