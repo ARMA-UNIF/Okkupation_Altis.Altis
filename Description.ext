@@ -27,7 +27,7 @@ respawnDialog = 0;
 respawnTemplates[] = {"Counter","Wave"};
 respawnOnStart = 0;
 aikills = 0;
-//
+// forceRotorLibSimulation = 1;
 disabledAI = 1;
 enableDebugConsole = 0;
 allowFunctionsLog = 0;
